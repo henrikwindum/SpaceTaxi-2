@@ -18,7 +18,7 @@ namespace SpaceTaxi_1.SpaceStates {
         private float height = 0.025f;
         private Player player;
         private List<Player> playerList = new List<Player>();
-        public ReadFile readFile;
+        private ReadFile readFile;
         private float width = 0.04347826086956521739130434782609f;
 
 
