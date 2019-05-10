@@ -79,6 +79,7 @@ namespace SpaceTaxi_1.SpaceStates {
                 switch (activeMenuButton) {
                 case 0:
                     if (keyAction == "KEY_PRESS") {
+                        GameRunning.GetInstance().PaintBoard("short-n-sweet.txt");
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors
                             (GameEventType.GameStateEvent, this,

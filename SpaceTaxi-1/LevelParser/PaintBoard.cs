@@ -8,7 +8,7 @@ namespace SpaceTaxi_1.LevelParser {
         private ReadFile readFile;
         private float width = 0.04347826086956521739130434782609f;
         private float height = 0.025f;
-        
+        /*
         public PaintBoard(string level) {
             readFile = new ReadFile();
             readFile.Read(level);
@@ -17,15 +17,15 @@ namespace SpaceTaxi_1.LevelParser {
             Platforms = new EntityContainer<Entity>();
             CreateBoard();
         }
-
-        public EntityContainer<Entity> Images { get; }
-        public EntityContainer<Entity> Platforms { get; }
+*/
+        //public EntityContainer<Entity> Images { get; }
+        //public EntityContainer<Entity> Platforms { get; }
         
         /// <summary>
         /// Iterates over boardList and checks if the given key is found in Dict.
         /// For each given key that exists in the dictionary, a StationaryShape-object is created. 
         /// </summary> 
-        private void CreateBoard() {
+  /*      private void CreateBoard() {
             for (int i = 0; i < readFile.BoardList.Count; i++) {
                 string currentString = readFile.BoardList[i];
                 for (int j = 0; j < currentString.Length; j++) {
@@ -47,6 +47,6 @@ namespace SpaceTaxi_1.LevelParser {
                     }
                 }    
             }
-        }
+        }*/
     }
 }
