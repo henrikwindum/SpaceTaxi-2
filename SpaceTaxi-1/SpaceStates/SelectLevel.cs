@@ -5,7 +5,6 @@ using DIKUArcade.EventBus;
 using DIKUArcade.Graphics;
 using DIKUArcade.Math;
 using DIKUArcade.State;
-using SpaceTaxi_1.LevelParser;
 using Image = DIKUArcade.Graphics.Image;
 
 namespace SpaceTaxi_1.SpaceStates {
@@ -32,23 +31,15 @@ namespace SpaceTaxi_1.SpaceStates {
             };
         }
 
-        public static SelectLevel GetInstance() {
-            return SelectLevel.instance ?? (SelectLevel.instance = new SelectLevel());
-        }
+        public void GameLoop() { }
 
-        public static SelectLevel NewGetInstance() {
-            return SelectLevel.instance = new SelectLevel();
-        }
-        public void GameLoop() {
-        }
-
-        public void InitializeGameState() {
-        }
+        public void InitializeGameState() { }
 
         public void UpdateGameLogic() {
             foreach (var button in menuButtons) {
                 button.SetColor(Color.White);
             }
+
             menuButtons[activeMenuButton].SetColor(Color.Red);
         }
 
@@ -67,6 +58,7 @@ namespace SpaceTaxi_1.SpaceStates {
                         activeMenuButton--;
                     }
                 }
+
                 break;
             case "KEY_DOWN":
                 if (keyAction == "KEY_PRESS") {
@@ -74,6 +66,7 @@ namespace SpaceTaxi_1.SpaceStates {
                         activeMenuButton++;
                     }
                 }
+
                 break;
             case "KEY_ENTER":
                 switch (activeMenuButton) {
@@ -86,6 +79,7 @@ namespace SpaceTaxi_1.SpaceStates {
                             (GameEventType.GameStateEvent, this,
                                 "CHANGE_STATE", "GAME_RUNNING", ""));
                     }
+
                     break;
                 case 1:
                     if (keyAction == "KEY_PRESS") {
@@ -96,6 +90,7 @@ namespace SpaceTaxi_1.SpaceStates {
                             (GameEventType.GameStateEvent, this,
                                 "CHANGE_STATE", "GAME_RUNNING", ""));
                     }
+
                     break;
                 case 2:
                     SpaceBus.GetBus().RegisterEvent(
@@ -104,8 +99,13 @@ namespace SpaceTaxi_1.SpaceStates {
                             "CHANGE_STATE", "MAIN_MENU", ""));
                     break;
                 }
+
                 break;
             }
+        }
+
+        public static SelectLevel GetInstance() {
+            return SelectLevel.instance ?? (SelectLevel.instance = new SelectLevel());
         }
     }
 }

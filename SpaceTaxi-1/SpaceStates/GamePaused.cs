@@ -12,19 +12,19 @@ namespace SpaceTaxi_1.SpaceStates {
         private static GamePaused instance;
         private int activeMenuButton;
         private int inactiveMenuButton;
+        private Text[] menuButtons;
 
         private Entity pauseImage;
-        private Text[] menuButtons;
-        
+
         public GamePaused() {
             pauseImage = new Entity(
-                new StationaryShape(new Vec2F(0.0f,0.0f), 
-                    new Vec2F(1.0f,1.0f)), 
-                new Image(Path.Combine("Assets", "Images", "SpaceTaxiImage.png")));    
+                new StationaryShape(new Vec2F(0.0f, 0.0f),
+                    new Vec2F(1.0f, 1.0f)),
+                new Image(Path.Combine("Assets", "Images", "SpaceTaxiImage.png")));
             menuButtons = new[] {
-                new Text("Resume", new Vec2F(0.4f, 0.25f), 
+                new Text("Resume", new Vec2F(0.4f, 0.25f),
                     new Vec2F(0.3f, 0.3f)),
-                new Text("Quit", new Vec2F(0.4f, 0.15f), 
+                new Text("Quit", new Vec2F(0.4f, 0.15f),
                     new Vec2F(0.3f, 0.3f))
             };
 
@@ -32,15 +32,9 @@ namespace SpaceTaxi_1.SpaceStates {
             inactiveMenuButton = 1;
         }
 
-        public static GamePaused GetInstance() {
-            return GamePaused.instance ?? (GamePaused.instance = new GamePaused());
-        }
-        
-        public void GameLoop() {
-        }
+        public void GameLoop() { }
 
-        public void InitializeGameState() {
-        }
+        public void InitializeGameState() { }
 
         public void UpdateGameLogic() {
             menuButtons[activeMenuButton].SetColor(Color.Red);
@@ -68,6 +62,7 @@ namespace SpaceTaxi_1.SpaceStates {
                     activeMenuButton = 1;
                     inactiveMenuButton = 0;
                 }
+
                 break;
             case "KEY_ENTER":
                 switch (activeMenuButton) {
@@ -81,13 +76,19 @@ namespace SpaceTaxi_1.SpaceStates {
                     if (keyAction == "KEY_PRESS") {
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors(
-                                GameEventType.WindowEvent, this, "CLOSE_WINDOW", 
-                                "", ""));   
+                                GameEventType.WindowEvent, this, "CLOSE_WINDOW",
+                                "", ""));
                     }
+
                     break;
                 }
+
                 break;
             }
+        }
+
+        public static GamePaused GetInstance() {
+            return GamePaused.instance ?? (GamePaused.instance = new GamePaused());
         }
     }
 }

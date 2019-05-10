@@ -1,4 +1,3 @@
-using System;
 using System.Drawing;
 using System.IO;
 using DIKUArcade.Entities;
@@ -12,39 +11,37 @@ namespace SpaceTaxi_1.SpaceStates {
     public class MainMenu : IGameState {
         private static MainMenu instance;
         private int activeMenuButton;
-        private int inactiveMenuButton;
 
         private Entity backGroundImage;
         private Text[] menuButtons;
 
         public MainMenu() {
             backGroundImage = new Entity(
-                new StationaryShape(new Vec2F(0.0f,0.0f), 
-                    new Vec2F(1.0f,1.0f)),
+                new StationaryShape(new Vec2F(0.0f, 0.0f),
+                    new Vec2F(1.0f, 1.0f)),
                 new Image(Path.Combine("Assets", "Images", "SpaceTaxiImage.png")));
             menuButtons = new[] {
                 new Text("New Game", new Vec2F(0.4f, 0.35f),
                     new Vec2F(0.3f, 0.3f)),
                 new Text("Select Level", new Vec2F(0.4f, 0.25f),
-                    new Vec2F(0.3f, 0.3f)), 
+                    new Vec2F(0.3f, 0.3f)),
                 new Text("Exit", new Vec2F(0.4f, 0.15f),
                     new Vec2F(0.3f, 0.3f))
             };
 
             activeMenuButton = 0;
         }
-        
-        
-        public void GameLoop() {
-        }
 
-        public void InitializeGameState() {
-        }
+
+        public void GameLoop() { }
+
+        public void InitializeGameState() { }
 
         public void UpdateGameLogic() {
             foreach (var button in menuButtons) {
                 button.SetColor(Color.White);
             }
+
             menuButtons[activeMenuButton].SetColor(Color.Red);
         }
 
@@ -55,25 +52,23 @@ namespace SpaceTaxi_1.SpaceStates {
             }
         }
 
-        public static MainMenu GetInstance() {
-            return MainMenu.instance ?? (MainMenu.instance = new MainMenu());
-        }
-
         public void HandleKeyEvent(string keyValue, string keyAction) {
             switch (keyValue) {
             case "KEY_UP":
                 if (keyAction == "KEY_PRESS") {
                     if (activeMenuButton > 0) {
-                        activeMenuButton--;    
+                        activeMenuButton--;
                     }
                 }
+
                 break;
             case "KEY_DOWN":
                 if (keyAction == "KEY_PRESS") {
                     if (activeMenuButton < 2) {
-                        activeMenuButton++;    
+                        activeMenuButton++;
                     }
                 }
+
                 break;
             case "KEY_ENTER":
                 switch (activeMenuButton) {
@@ -83,8 +78,9 @@ namespace SpaceTaxi_1.SpaceStates {
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors
                             (GameEventType.GameStateEvent, this,
-                                "CHANGE_STATE", "GAME_RUNNING", ""));    
+                                "CHANGE_STATE", "GAME_RUNNING", ""));
                     }
+
                     break;
                 case 1:
                     if (keyAction == "KEY_PRESS") {
@@ -93,16 +89,22 @@ namespace SpaceTaxi_1.SpaceStates {
                             (GameEventType.GameStateEvent, this,
                                 "CHANGE_STATE", "SELECT_LEVEL", ""));
                     }
+
                     break;
                 case 2:
                     SpaceBus.GetBus().RegisterEvent(
                         GameEventFactory<object>.CreateGameEventForAllProcessors(
-                            GameEventType.WindowEvent, this, "CLOSE_WINDOW", 
+                            GameEventType.WindowEvent, this, "CLOSE_WINDOW",
                             "", ""));
                     break;
                 }
+
                 break;
             }
+        }
+
+        public static MainMenu GetInstance() {
+            return MainMenu.instance ?? (MainMenu.instance = new MainMenu());
         }
     }
 }

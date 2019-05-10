@@ -44,10 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
-    <Compile Include="LevelParser\PaintBoard.cs" />
-    <Compile Include="LevelParser\ReadFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadFile.cs" />
     <Compile Include="SpaceBus.cs" />
     <Compile Include="SpaceStates\GameOver.cs" />
     <Compile Include="SpaceStates\GamePaused.cs" />

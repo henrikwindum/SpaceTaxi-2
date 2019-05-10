@@ -2,7 +2,6 @@ using System;
 
 namespace SpaceTaxi_1.SpaceStates {
     public class StateTransformer {
-
         public static GameStateType TransformStringToState(string state) {
             switch (state) {
             case "GAME_RUNNING":
@@ -21,7 +20,7 @@ namespace SpaceTaxi_1.SpaceStates {
         }
 
         public static string TransformStateToString(GameStateType state) {
-            switch (state ) {
+            switch (state) {
             case GameStateType.GameRunning:
                 return "GAME_RUNNING";
             case GameStateType.GamePaused:

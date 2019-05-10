@@ -8,24 +8,23 @@ using SpaceTaxi_1.SpaceStates;
 namespace SpaceTaxi_1 {
     public class Game : IGameEventProcessor<object> {
         private GameTimer gameTimer;
-        private Window win;
         private StateMachine stateMachine;
-        private Player player;
+        private Window win;
 
         public Game() {
             // window
             win = new Window("Space Taxi Game v0.1", 500, AspectRatio.R1X1);
-            
+
             // event bus
             SpaceBus.GetBus().InitializeEventBus(new List<GameEventType> {
-                GameEventType.InputEvent,  // key press / key release
+                GameEventType.InputEvent, // key press / key release
                 GameEventType.WindowEvent, // messages to the window, e.g. CloseWindow()
-                GameEventType.GameStateEvent,  // commands issued to the player object, e.g. move,
-                GameEventType.PlayerEvent      // destroy, receive health, etc.
+                GameEventType.GameStateEvent, // commands issued to the player object, e.g. move,
+                GameEventType.PlayerEvent // destroy, receive health, etc.
             });
             stateMachine = new StateMachine();
             win.RegisterEventBus(SpaceBus.GetBus());
-            
+
             // game timer
             gameTimer = new GameTimer(60); // 60 UPS, no FPS limit
 
@@ -35,6 +34,25 @@ namespace SpaceTaxi_1 {
             SpaceBus.GetBus().Subscribe(GameEventType.WindowEvent, this);
             SpaceBus.GetBus().Subscribe(GameEventType.PlayerEvent, this);
             SpaceBus.GetBus().Subscribe(GameEventType.GameStateEvent, this);
+        }
+
+        public void ProcessEvent(GameEventType eventType, GameEvent<object> gameEvent) {
+            if (eventType == GameEventType.WindowEvent) {
+                switch (gameEvent.Message) {
+                case "CLOSE_WINDOW":
+                    win.CloseWindow();
+                    break;
+                }
+            } else if (eventType == GameEventType.InputEvent) {
+                switch (gameEvent.Parameter1) {
+                case "KEY_PRESS":
+                    KeyPress(gameEvent.Message);
+                    break;
+                case "KEY_RELEASE":
+                    KeyRelease(gameEvent.Message);
+                    break;
+                }
+            }
         }
 
         public void GameLoop() {
@@ -51,14 +69,12 @@ namespace SpaceTaxi_1 {
                     win.Clear();
                     stateMachine.ActiveState.RenderState();
                     win.SwapBuffers();
-                    
                 }
 
                 if (gameTimer.ShouldReset()) {
                     // 1 second has passed - display last captured ups and fps from the timer
                     win.Title = "Space Taxi | UPS: " + gameTimer.CapturedUpdates + ", FPS: " +
-                                 gameTimer.CapturedFrames;
-                    
+                                gameTimer.CapturedFrames;
                 }
             }
         }
@@ -107,25 +123,6 @@ namespace SpaceTaxi_1 {
                     GameEventFactory<object>.CreateGameEventForAllProcessors(
                         GameEventType.PlayerEvent, this, "STOP_ACCELERATE_UP", "", ""));
                 break;
-            }
-        }
-
-        public void ProcessEvent(GameEventType eventType, GameEvent<object> gameEvent) {
-            if (eventType == GameEventType.WindowEvent) {
-                switch (gameEvent.Message) {
-                case "CLOSE_WINDOW":
-                    win.CloseWindow();
-                    break;
-                }
-            } else if (eventType == GameEventType.InputEvent) {
-                switch (gameEvent.Parameter1) {
-                case "KEY_PRESS":
-                    KeyPress(gameEvent.Message);
-                    break;
-                case "KEY_RELEASE":
-                    KeyRelease(gameEvent.Message);
-                    break;
-                }
             }
         }
     }
