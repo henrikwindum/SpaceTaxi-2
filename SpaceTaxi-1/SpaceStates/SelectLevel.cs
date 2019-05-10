@@ -72,7 +72,6 @@ namespace SpaceTaxi_1.SpaceStates {
                 switch (activeMenuButton) {
                 case 0:
                     if (keyAction == "KEY_PRESS") {
-                        //GameRunning.GetInstance().InitializeGameState();
                         GameRunning.GetInstance().PaintBoard("short-n-sweet.txt");
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors
@@ -83,7 +82,6 @@ namespace SpaceTaxi_1.SpaceStates {
                     break;
                 case 1:
                     if (keyAction == "KEY_PRESS") {
-                        //GameRunning.GetInstance().InitializeGameState();
                         GameRunning.GetInstance().PaintBoard("the-beach.txt");
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors

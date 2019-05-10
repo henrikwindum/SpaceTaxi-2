@@ -37,7 +37,6 @@ namespace SpaceTaxi_1.SpaceStates {
                 ImageStride.CreateStrides(8, Path.Combine("Assets", "Images", "Explosion.png"));
             explosion = new AnimationContainer(8);
 
-            InitializeGameState();
         }
 
         private EntityContainer<Entity> Images { get; set; }
@@ -140,7 +139,7 @@ namespace SpaceTaxi_1.SpaceStates {
                     if (!play.Entity.IsDeleted()) {
                         newPlayerList.Add(play);
                     }
-
+                    
                     if (play.Entity.IsDeleted()) {
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors
@@ -164,7 +163,6 @@ namespace SpaceTaxi_1.SpaceStates {
                         player.Entity.Shape.AsDynamicShape().Direction.Y = 0;
                         player.Entity.Shape.AsDynamicShape().Direction.X = 0;
                     }
-
                     break;
                 }
 

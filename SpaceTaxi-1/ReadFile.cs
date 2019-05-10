@@ -17,7 +17,7 @@ namespace SpaceTaxi_1 {
         /// <param name="level">Filename of the level</param>
         public void Read(string level) {
             var file = new StreamReader(GetLevelPath(level));
-            BoardList = new List<string>();
+            BoardList = new List<string>();    
             Dict = new Dictionary<char, string>();
             Platforms = new List<char>();
 
