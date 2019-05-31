@@ -39,6 +39,7 @@ namespace SpaceTaxi_1 {
                             new Image(Path.Combine("Assets", "Images",
                                 readFile.BoardDict[currentString[j]])));                        
                         platform.platform = currentString[j];
+                        platform.name.SetText(platform.platform.ToString());
                         PlatformList.Add(platform);
                         
                         // handles customers
@@ -52,12 +53,8 @@ namespace SpaceTaxi_1 {
                                 new Image(Path.Combine("Assets", "Images", "CustomerStandRight.png")));
                                 
                             customer.maxRight = new Vec2F(j * height, i * width + 1.75f * height);
-                            customer.maxLeft = new Vec2F(j * height, i * width + 1.75f * height);
-                            customer.spawnTime = float.Parse(readFile.CustomerDict[currentString[j]][1]);
-                            customer.name = readFile.CustomerDict[currentString[j]][0];
-                            customer.platform = readFile.CustomerDict[currentString[j]][3];
-                            customer.timeLimit = float.Parse(readFile.CustomerDict[currentString[j]][4]);
-                            customer.score = int.Parse(readFile.CustomerDict[currentString[j]][5]);
+                            customer.maxLeft = new Vec2F(j * height, i * width + 1.75f * height);                            
+                            customer.Instantiate(readFile.CustomerDict, currentString[j]);                                                        
                             CustomerList.Add(customer);
                             currentPlatform = currentString[j];
                         }

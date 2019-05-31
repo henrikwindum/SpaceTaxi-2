@@ -70,7 +70,8 @@ namespace SpaceTaxi_1.SpaceStates {
             }
 
             foreach (var _platform in paintBoard.PlatformList) {
-                _platform.Entity.RenderEntity();
+                _platform.Entity.RenderEntity();                
+                _platform.name.RenderText();
             }            
             paintBoard.Walls.RenderEntities();
             collision.explosion.RenderAnimations();

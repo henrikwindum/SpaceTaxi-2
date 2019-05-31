@@ -56,5 +56,13 @@ namespace SpaceTaxi_1 {
                 Entity.RenderEntity();
             }
         }
+
+        public void Instantiate(Dictionary<char, string[]> dict, char key) {
+            name = dict[key][0];
+            spawnTime = float.Parse(dict[key][1]);            
+            platform = dict[key][3];
+            timeLimit = float.Parse(dict[key][4]);
+            score = int.Parse(dict[key][5]);
+        }
     }
 }
