@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using DIKUArcade.Entities;
 using DIKUArcade.EventBus;
@@ -8,32 +6,32 @@ using DIKUArcade.Graphics;
 using DIKUArcade.Math;
 using DIKUArcade.State;
 using DIKUArcade.Timers;
-using Image = DIKUArcade.Graphics.Image;
+using SpaceTaxi_1.Taxi;
 
 namespace SpaceTaxi_1.SpaceStates {
     public class GameRunning : IGameState {
         private static GameRunning instance;
         private Entity backGroundImage;
+        private Collision collision;
+        private PaintBoard paintBoard;
         private Player player;
         private List<Player> playerList = new List<Player>();
-        private PaintBoard paintBoard;
-        private Collision collision;
         private Textplate textPlate;
-        
+
         public GameRunning() {
             player = new Player();
-            player.SetPosition(0.45f, 0.6f);                        
+            player.SetPosition(0.45f, 0.6f);
 
             backGroundImage = new Entity(
                 new StationaryShape(new Vec2F(0.0f, 0.0f), new Vec2F(1.0f, 1.0f)),
                 new Image(Path.Combine("Assets", "Images", "SpaceBackground.png"))
             );
 
-            paintBoard = new PaintBoard();            
+            paintBoard = new PaintBoard();
             collision = new Collision();
-            collision.playerList.Add(player);
+            collision.PlayerList.Add(player);
             StaticTimer.RestartTimer();
-            textPlate = new Textplate();            
+            textPlate = new Textplate();
         }
 
         public void GameLoop() { }
@@ -41,40 +39,38 @@ namespace SpaceTaxi_1.SpaceStates {
         public void InitializeGameState() { }
 
         public void UpdateGameLogic() {
-            player.Movement();            
-            collision.WallCollision(paintBoard.Walls, player);
-            collision.PlatformCollision(paintBoard.PlatformList, player);
-            paintBoard.CustomerList = collision.CustomerCollision(paintBoard.CustomerList, player);            
+            player.Movement();
             player.Entity.Shape.Move();
             player.Gravity();
-            NextLevel();            
-            foreach (Customer _customer in paintBoard.CustomerList) {
-                _customer.Move();
-            }            
+            player.FailedDelivery();
+            collision.WallCollision(paintBoard.Walls, player);
+            collision.PlatformCollision(paintBoard.PlatformList, player);
+            paintBoard.Customers = collision.CustomerCollision(paintBoard.Customers, player);
+            NextLevel();
             textPlate.Render(player);
-            player.sumFunc();            
+            foreach (var customer in paintBoard.Customers) {
+                customer.Move();
+            }
         }
 
         public void RenderState() {
             backGroundImage.RenderEntity();
-            
-            foreach (Player _player in collision.playerList) {
-                _player.RenderPlayer();
+
+            foreach (var tempPlayer in collision.PlayerList) {
+                tempPlayer.RenderPlayer();
             }
 
-            foreach (Customer _customer in paintBoard.CustomerList) {
-                if (_customer.spawnTime < StaticTimer.GetElapsedSeconds()) {
-                    _customer.Entity.Shape.Extent = new Vec2F(0.05f, 0.05f);        
-                }
-                _customer.Render();                             
+            foreach (var customer in paintBoard.Customers) {
+                customer.Render();
             }
 
-            foreach (var _platform in paintBoard.PlatformList) {
-                _platform.Entity.RenderEntity();                
-                _platform.name.RenderText();
-            }            
+            paintBoard.PlatformList.RenderEntities();
+            foreach (Platform platform in paintBoard.PlatformList) {
+                platform.Name.RenderText();
+            }
+
             paintBoard.Walls.RenderEntities();
-            collision.explosion.RenderAnimations();
+            collision.Explosion.RenderAnimations();
             textPlate.Render(player);
         }
 
@@ -91,7 +87,7 @@ namespace SpaceTaxi_1.SpaceStates {
         }
 
         public void PaintTheBoard(string level) {
-            paintBoard.PaintTheBoard(level);            
+            paintBoard.PaintTheBoard(level);
         }
 
         public static GameRunning GetInstance() {
@@ -100,15 +96,14 @@ namespace SpaceTaxi_1.SpaceStates {
 
         public static GameRunning NewGetInstance() {
             return GameRunning.instance = new GameRunning();
-        }        
+        }
 
         private void NextLevel() {
             if (player.Entity.Shape.Position.Y >= 0.99f) {
-                paintBoard.CustomerList.Clear();
+                paintBoard.Customers.Clear();
                 paintBoard.PaintTheBoard("the-beach.txt");
-                player.SetPosition(0.3f, 0.5f);                             
+                player.SetPosition(0.3f, 0.5f);
             }
         }
-        
     }
 }

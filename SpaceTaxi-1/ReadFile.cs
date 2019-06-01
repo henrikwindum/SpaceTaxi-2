@@ -1,16 +1,15 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
 namespace SpaceTaxi_1 {
     public class ReadFile {
+        public Dictionary<char, string> BoardDict;
         public List<string> BoardList;
         private int counter;
-        public Dictionary<char, string> BoardDict;
+        public Dictionary<char, string[]> CustomerDict;
         private string line;
         public List<char> Platforms;
-        public Dictionary<char, string[]> CustomerDict;
 
         /// <summary>
         ///     Adds the level-map as strings to BoardList.
@@ -19,11 +18,11 @@ namespace SpaceTaxi_1 {
         /// <param name="level">Filename of the level</param>
         public void Read(string level) {
             var file = new StreamReader(GetLevelPath(level));
-            BoardList = new List<string>();                
+            BoardList = new List<string>();
             Platforms = new List<char>();
-            
+
             BoardDict = new Dictionary<char, string>();
-            CustomerDict = new Dictionary<char, string[]>();                        
+            CustomerDict = new Dictionary<char, string[]>();
 
             // Reads and adds the line to lists.            
             while ((line = file.ReadLine()) != null) {
@@ -31,6 +30,7 @@ namespace SpaceTaxi_1 {
                 if (line.EndsWith(".png")) {
                     BoardDict.Add(line[0], line.Substring(3));
                 }
+
                 if (line.StartsWith("Platforms:")) {
                     for (var i = 11; i < line.Length; i++) {
                         if (line[i] != ' ' && line[i] != ',') {
@@ -38,15 +38,18 @@ namespace SpaceTaxi_1 {
                         }
                     }
                 }
+
                 if (line.StartsWith("Customer:")) {
                     line = line.Substring(10);
-                    string[] customerStats = line.Split(' ');
-                    CustomerDict.Add(char.Parse(customerStats[2]), customerStats);                                       
+                    var customerStats = line.Split(' ');
+                    CustomerDict.Add(char.Parse(customerStats[2]), customerStats);
                 }
+
                 if (counter < 24) {
                     BoardList.Add(line);
                 }
             }
+
             BoardList.Reverse();
             file.Close();
         }
@@ -55,7 +58,7 @@ namespace SpaceTaxi_1 {
         ///     Finds full directory path of the given level.
         /// </summary>
         /// <remarks>This code is borrowed from Texture.cs in DIKUArcade.</remarks>
-        /// <param name="filename">Filename of the level.</param>
+        /// <param name="fileName">Filename of the level.</param>
         /// <returns>Directory path of the level.</returns>
         /// <exception cref="FileNotFoundException">File does not exist.</exception>
         private string GetLevelPath(string fileName) {

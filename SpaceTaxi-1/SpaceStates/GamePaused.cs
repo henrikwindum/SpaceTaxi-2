@@ -11,7 +11,7 @@ using Image = DIKUArcade.Graphics.Image;
 namespace SpaceTaxi_1.SpaceStates {
     public class GamePaused : IGameState {
         private static GamePaused instance;
-        private int activeMenuButton;        
+        private int activeMenuButton;
         private Text[] menuButtons;
         private Entity pauseImage;
 
@@ -24,12 +24,12 @@ namespace SpaceTaxi_1.SpaceStates {
                 new Text("Resume", new Vec2F(0.4f, 0.35f),
                     new Vec2F(0.3f, 0.3f)),
                 new Text("Main menu", new Vec2F(0.4f, 0.25f),
-                    new Vec2F(0.3f, 0.3f)), 
+                    new Vec2F(0.3f, 0.3f)),
                 new Text("Quit", new Vec2F(0.4f, 0.15f),
                     new Vec2F(0.3f, 0.3f))
             };
 
-            activeMenuButton = 0;            
+            activeMenuButton = 0;
         }
 
         public void GameLoop() { }

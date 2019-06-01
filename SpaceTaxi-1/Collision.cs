@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using DIKUArcade.Entities;
@@ -6,26 +5,26 @@ using DIKUArcade.EventBus;
 using DIKUArcade.Graphics;
 using DIKUArcade.Math;
 using DIKUArcade.Physics;
-using DIKUArcade.Timers;
+using SpaceTaxi_1.Taxi;
 
 namespace SpaceTaxi_1 {
     public class Collision {
-        public AnimationContainer explosion;
-        private List<Image> explosionStrides;
-        public List<Player> playerList;        
+        public AnimationContainer Explosion;
         private int explosionLength = 500;
-        
+        private List<Image> explosionStrides;
+        public List<Player> PlayerList;
+
 
         public Collision() {
             explosionStrides =
                 ImageStride.CreateStrides(8, Path.Combine("Assets", "Images", "Explosion.png"));
-            explosion = new AnimationContainer(8);
-            playerList = new List<Player>();                     
+            Explosion = new AnimationContainer(8);
+            PlayerList = new List<Player>();
         }
-        
-        
+
+
         private void AddExplosion(Vec2F pos, Vec2F extend) {
-            explosion.AddAnimation(
+            Explosion.AddAnimation(
                 new StationaryShape(pos, extend), explosionLength,
                 new ImageStride(explosionLength / 8, explosionStrides));
         }
@@ -40,13 +39,14 @@ namespace SpaceTaxi_1 {
                     player.Entity.DeleteEntity();
                     break;
                 }
+
                 var newPlayerList = new List<Player>();
-                foreach (var _player in playerList) {
-                    if (!_player.Entity.IsDeleted()) {
-                        newPlayerList.Add(_player);
+                foreach (var tempPlayer in PlayerList) {
+                    if (!tempPlayer.Entity.IsDeleted()) {
+                        newPlayerList.Add(tempPlayer);
                     }
 
-                    if (_player.Entity.IsDeleted()) {
+                    if (tempPlayer.Entity.IsDeleted()) {
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors(
                                 GameEventType.GameStateEvent, this,
@@ -54,11 +54,11 @@ namespace SpaceTaxi_1 {
                     }
                 }
 
-                playerList = newPlayerList;
+                PlayerList = newPlayerList;
             }
         }
-        
-        public void PlatformCollision(List<Platform> platforms, Player player) {
+
+        public void PlatformCollision(EntityContainer<Platform> platforms, Player player) {
             foreach (Platform platform in platforms) {
                 switch (CollisionDetection.Aabb((DynamicShape)
                     player.Entity.Shape, platform.Entity.Shape).Collision) {
@@ -70,49 +70,59 @@ namespace SpaceTaxi_1 {
                     } else {
                         player.Entity.Shape.AsDynamicShape().Direction.Y = 0;
                         player.Entity.Shape.AsDynamicShape().Direction.X = 0;
-                                                
-                        if (player.currentCustomer != null && player.currentCustomer.platform == platform.platform.ToString()) {
-                            Console.WriteLine("You delivered " + player.currentCustomer.name + " at platform " + platform.platform);                            
-                            player.score += player.currentCustomer.score;
+
+                        if (player.CurrentCustomer != null && player.CurrentCustomer.Platform ==
+                            platform.AsciiPlatform.ToString()) {
+                            player.Score += player.CurrentCustomer.Score;
                             player.DropOff();
                         }
                     }
+
                     break;
                 }
+
                 var newPlayerList = new List<Player>();
-                foreach (var _player in playerList) {
-                    if (!_player.Entity.IsDeleted()) {
-                        newPlayerList.Add(_player);
+                foreach (var tempPlayer in PlayerList) {
+                    if (!tempPlayer.Entity.IsDeleted()) {
+                        newPlayerList.Add(tempPlayer);
                     }
-                    if (_player.Entity.IsDeleted()) {
+
+                    if (tempPlayer.Entity.IsDeleted()) {
                         SpaceBus.GetBus().RegisterEvent(
                             GameEventFactory<object>.CreateGameEventForAllProcessors
                             (GameEventType.GameStateEvent, this,
                                 "CHANGE_STATE", "GAME_OVER", ""));
                     }
                 }
-                playerList = newPlayerList;
+
+                PlayerList = newPlayerList;
             }
         }
-        
-        public List<Customer> CustomerCollision(List<Customer> customers, Player player) {            
+
+        public List<Customer> CustomerCollision(List<Customer> customers, Player player) {
             var newCustomerList = new List<Customer>();
-            foreach (var _customer in customers) {
-                if (_customer.Shape.Position.X < player.Entity.Shape.Extent.X + player.Entity.Shape.Position.X &&
-                    _customer.Shape.Extent.X + _customer.Shape.Position.X> player.Entity.Shape.Position.X &&
-                    _customer.Shape.Position.Y < player.Entity.Shape.Extent.Y + player.Entity.Shape.Position.Y &&
-                    _customer.Shape.Extent.Y + _customer.Shape.Position.Y > player.Entity.Shape.Position.Y &&
-                    !player.boolPassenger) {
-                    player.PickUp(_customer);
-                    _customer.Entity.DeleteEntity();
+            foreach (var customer in customers) {
+                if (customer.Shape.Position.X <
+                    player.Entity.Shape.Extent.X + player.Entity.Shape.Position.X &&
+                    customer.Shape.Extent.X + customer.Shape.Position.X >
+                    player.Entity.Shape.Position.X &&
+                    customer.Shape.Position.Y <
+                    player.Entity.Shape.Extent.Y + player.Entity.Shape.Position.Y &&
+                    customer.Shape.Extent.Y + customer.Shape.Position.Y >
+                    player.Entity.Shape.Position.Y &&
+                    !player.BoolPassenger) {
+                    player.PickUp(customer);
+                    customer.Entity.DeleteEntity();
                 }
-                
-                if (!_customer.Entity.IsDeleted()) {
-                    newCustomerList.Add(_customer);
+
+                if (!customer.Entity.IsDeleted()) {
+                    newCustomerList.Add(customer);
                 }
+
                 customers = newCustomerList;
             }
+
             return customers;
-        }        
+        }
     }
 }

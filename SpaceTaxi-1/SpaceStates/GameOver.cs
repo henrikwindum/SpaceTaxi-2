@@ -11,7 +11,7 @@ namespace SpaceTaxi_1.SpaceStates {
     public class GameOver : IGameState {
         private static GameOver instance;
         private int activeMenuButton;
-        private Entity gameOverImage;        
+        private Entity gameOverImage;
         private Text[] menuButtons;
 
 
@@ -27,7 +27,7 @@ namespace SpaceTaxi_1.SpaceStates {
                     new Vec2F(0.3f, 0.3f))
             };
 
-            activeMenuButton = 0;            
+            activeMenuButton = 0;
         }
 
         public void GameLoop() { }
