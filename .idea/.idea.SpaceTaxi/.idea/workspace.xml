@@ -3,162 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="618ee419-f2a8-44df-8c45-2b71eb6aba26" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/CustomerStandLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/CustomerStandRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/CustomerWalkLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/CustomerWalkRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/GameOver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/SpaceBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/SpaceTaxiImage.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/SpaceTaxiImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Back_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Bottom_Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Bottom_Back_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_Bottom_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_None.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Taxi_Thrust_None_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Back_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Bottom_Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Bottom_Back_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_Bottom_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_None.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/Txi_Thrust_None_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-top-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-top-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-edge-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-passage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-passage1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/aspargus-passage2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/deep-bronze-left-half-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/deep-bronze-right-half-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/deep-bronze-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/emperor-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/emperor-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/emperor-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/emperor-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/emperor-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/generate-images.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/green-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/green-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/green-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/green-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/green-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/ironstone-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/ironstone-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/ironstone-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/ironstone-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/ironstone-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/minsk-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/nandor-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/neptune-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/neptune-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/neptune-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/neptune-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/neptune-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/obstacle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/olive-green-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/platform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/purple-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/salt-box-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine-brown-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine-brown-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine-brown-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine-brown-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine-brown-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine_brown-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine_brown-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine_brown-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine_brown-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/sanguine_brown-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/studio-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/studio-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/studio-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/studio-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/studio-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/tacha-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/tacha-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-left-half-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-lower-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-lower-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-right-half-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-upper-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/white-upper-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Assets/Images/yellow-stick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Levels/short-n-sweet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Levels/the-beach.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/SpaceTaxiTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/LevelParserTesting.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/Levels/short-n-sweet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Levels/short-n-sweet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/Levels/the-beach.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Levels/the-beach.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/OpenTK.dll.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/DIKUArcade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/DIKUArcade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/LevelParserTesting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/LevelParserTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/OpenTK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/OpenTK.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/OpenTK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/OpenTK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/nunit.framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/nunit.framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/bin/Debug/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/nunit.framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.CopyComplete" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/LevelParserTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelParserTesting/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/SpaceTaxiStateMachineTesting.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/SpaceTaxiStateMachineTesting.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,23 +113,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
+            <state relative-caret-position="1360">
               <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <marker date="1559663088840" expanded="false" signature="6:193" ph="..." />
                 <marker date="1559663088840" expanded="true" signature="219:4072" ph="{...}" />
                 <marker date="1559663088840" expanded="true" signature="262:4070" ph="{...}" />
                 <marker date="1559663088840" expanded="true" signature="308:756" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// ... " />
+                <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
                 <marker date="1559663088840" expanded="true" signature="1136:1426" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="1444:1567" ph="///  ... " />
+                <marker date="1559663088840" expanded="true" signature="1444:1567" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
                 <marker date="1559663088840" expanded="true" signature="1619:1890" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="1908:2048" ph="///  ... " />
+                <marker date="1559663088840" expanded="true" signature="1908:2048" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
                 <marker date="1559663088840" expanded="true" signature="2098:2385" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///  ... " />
+                <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
                 <marker date="1559663088840" expanded="true" signature="2581:3009" ph="{...}" />
                 <marker date="1559663088840" expanded="true" signature="2706:2999" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///  ... " />
+                <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
                 <marker date="1559663088840" expanded="true" signature="3206:4064" ph="{...}" />
                 <marker date="1559663088840" expanded="true" signature="3328:4054" ph="{...}" />
               </folding>
@@ -287,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="2992">
               <caret line="187" column="16" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
               <folding>
                 <marker date="1559662997583" expanded="false" signature="6:136" ph="..." />
@@ -301,7 +154,7 @@
                 <marker date="1559662997583" expanded="true" signature="6375:6487" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
                 <marker date="1559662997583" expanded="true" signature="6546:6715" ph="{...}" />
                 <marker date="1559662997583" expanded="true" signature="6602:6705" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the right characters and strings in the right order ... " />
+                <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
                 <marker date="1559662997583" expanded="true" signature="6963:7174" ph="{...}" />
                 <marker date="1559662997583" expanded="true" signature="7025:7164" ph="{...}" />
                 <marker date="1559662997583" expanded="true" signature="7184:7321" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
@@ -310,7 +163,7 @@
                 <marker date="1559662997583" expanded="true" signature="7914:8022" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
                 <marker date="1559662997583" expanded="true" signature="8078:8244" ph="{...}" />
                 <marker date="1559662997583" expanded="true" signature="8134:8234" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains the right characters and strings in the right order ... " />
+                <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
                 <marker date="1559662997583" expanded="true" signature="8485:8687" ph="{...}" />
                 <marker date="1559662997583" expanded="true" signature="8544:8677" ph="{...}" />
               </folding>
@@ -321,7 +174,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="1020">
               <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
               <folding>
                 <marker date="1559662997569" expanded="false" signature="6:151" ph="..." />
@@ -329,13 +182,13 @@
                 <marker date="1559662997569" expanded="true" signature="249:2814" ph="{...}" />
                 <marker date="1559662997569" expanded="true" signature="310:757" ph="{...}" />
                 <marker date="1559662997569" expanded="true" signature="428:530" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="811:944" ph="///  ... " />
+                <marker date="1559662997569" expanded="true" signature="811:944" ph="/// Makes sure the active state becomes GameOver when receiving the message &quot;GAME_OVER&quot;. ... " />
                 <marker date="1559662997569" expanded="true" signature="1000:1379" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="1389:1526" ph="///  ... " />
+                <marker date="1559662997569" expanded="true" signature="1389:1526" ph="/// Makes sure the active state becomes GamePaused when receiving the message &quot;GAME_PAUSED&quot;. ... " />
                 <marker date="1559662997569" expanded="true" signature="1580:1963" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="1973:2112" ph="///  ... " />
+                <marker date="1559662997569" expanded="true" signature="1973:2112" ph="/// Makes sure the active state becomes SelectLevel when receiving the message &quot;SELECT_LEVEL&quot;. ... " />
                 <marker date="1559662997569" expanded="true" signature="2171:2556" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="2566:2664" ph="///  ... " />
+                <marker date="1559662997569" expanded="true" signature="2566:2664" ph="/// Tests that the initial state is in fact MainMenu. ... " />
                 <marker date="1559662997569" expanded="true" signature="2719:2808" ph="{...}" />
               </folding>
             </state>
@@ -345,31 +198,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+            <state relative-caret-position="1394">
+              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
               <folding>
                 <marker date="1559663443972" expanded="false" signature="6:53" ph="..." />
                 <marker date="1559663443972" expanded="true" signature="94:3341" ph="{...}" />
                 <marker date="1559663443972" expanded="true" signature="136:3339" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="155:274" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="155:274" ph="/// Testing the string &quot;GAME_PAUSED&quot; changes GameStateType to GamePaused.  ... " />
                 <marker date="1559663443972" expanded="true" signature="327:465" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="483:602" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="483:602" ph="/// Testing the GameStateType GamePaused returns the string &quot;GAME_PAUSED&quot;. ... " />
                 <marker date="1559663443972" expanded="true" signature="655:793" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="803:923" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="803:923" ph="/// Testing the string &quot;GAME_RUNNING&quot; changes GameStateType to GameRunning. ... " />
                 <marker date="1559663443972" expanded="true" signature="978:1118" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="1136:1251" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="1136:1251" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
                 <marker date="1559663443972" expanded="true" signature="1306:1440" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="1450:1564" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="1450:1564" ph="/// Testing the string &quot;MAIN_MENU&quot; changes GameStateType to MainMenu. ... " />
                 <marker date="1559663443972" expanded="true" signature="1616:1750" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="1760:1875" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="1760:1875" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
                 <marker date="1559663443972" expanded="true" signature="1927:2061" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="2071:2185" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="2071:2185" ph="/// Testing the string &quot;GAME_OVER&quot; changes GameStateType to GameOver. ... " />
                 <marker date="1559663443972" expanded="true" signature="2237:2371" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="2381:2496" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="2381:2496" ph="/// Testing the GameStateType GameOver returns the string &quot;GAME_OVER&quot;. ... " />
                 <marker date="1559663443972" expanded="true" signature="2548:2682" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="2692:2812" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="2692:2812" ph="/// Testing the string &quot;SELECT_LEVEL&quot; changes GameStateType to SelectLevel. ... " />
                 <marker date="1559663443972" expanded="true" signature="2867:3007" ph="{...}" />
-                <marker date="1559663443972" expanded="true" signature="3017:3138" ph="///  ... " />
+                <marker date="1559663443972" expanded="true" signature="3017:3138" ph="/// Testing the GameStateType SelectLevel returns the string &quot;SELECT_LEVEL&quot;. ... " />
                 <marker date="1559663443972" expanded="true" signature="3193:3333" ph="{...}" />
               </folding>
             </state>
@@ -379,7 +232,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="85">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
             </state>
           </provider>
@@ -469,6 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -479,30 +333,29 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DIKUArcade" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="SpaceTaxi-1" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SpaceTaxiStateMachineTesting" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="SpaceTaxiTest" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="SpaceTaxiTest" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -590,12 +443,13 @@
       <workItem from="1559640658054" duration="843000" />
       <workItem from="1559660393756" duration="245000" />
       <workItem from="1559661336215" duration="550000" />
-      <workItem from="1559662015765" duration="1439000" />
+      <workItem from="1559662015765" duration="1560000" />
+      <workItem from="1559664146233" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90742000" />
+    <option name="totallyTimeSpent" value="90967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +464,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13978495" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14180107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -628,7 +482,7 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.28125" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.41761363" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067204" side_tool="true" weight="0.25710228" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -966,6 +820,7 @@
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/LevelParser/ReadFile.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/SpaceBus.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Textplate.cs" />
+    <entry file="file://$PROJECT_DIR$/LevelParserTesting/Tests.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GamePaused.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -1003,7 +858,6 @@
           <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
           <folding>
             <marker date="1559661297620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1559661297620" expanded="true" signature="172:6140" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="226:6138" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="359:1443" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="559:905" ph="{...}" />
@@ -1034,7 +888,6 @@
         <state relative-caret-position="289">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
-            <marker date="1552646568773" expanded="true" signature="54:1509" ph="{...}" />
             <marker date="1552646568773" expanded="true" signature="94:1507" ph="{...}" />
             <marker date="1552646568773" expanded="true" signature="104:204" ph="///     Only dynamic entities carry a direction vector. ... " />
             <marker date="1552646568773" expanded="true" signature="317:458" ph="{...}" />
@@ -1049,23 +902,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Tests.cs">
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LevelParserTesting/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="1360">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <marker date="1559663088840" expanded="false" signature="6:193" ph="..." />
+            <marker date="1559663088840" expanded="true" signature="219:4072" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="262:4070" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="308:756" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
+            <marker date="1559663088840" expanded="true" signature="1136:1426" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="1444:1567" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
+            <marker date="1559663088840" expanded="true" signature="1619:1890" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="1908:2048" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
+            <marker date="1559663088840" expanded="true" signature="2098:2385" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
+            <marker date="1559663088840" expanded="true" signature="2581:3009" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="2706:2999" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
+            <marker date="1559663088840" expanded="true" signature="3206:4064" ph="{...}" />
+            <marker date="1559663088840" expanded="true" signature="3328:4054" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="2992">
           <caret line="187" column="16" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
           <folding>
             <marker date="1559662997583" expanded="false" signature="6:136" ph="..." />
@@ -1079,7 +943,7 @@
             <marker date="1559662997583" expanded="true" signature="6375:6487" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
             <marker date="1559662997583" expanded="true" signature="6546:6715" ph="{...}" />
             <marker date="1559662997583" expanded="true" signature="6602:6705" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the right characters and strings in the right order ... " />
+            <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
             <marker date="1559662997583" expanded="true" signature="6963:7174" ph="{...}" />
             <marker date="1559662997583" expanded="true" signature="7025:7164" ph="{...}" />
             <marker date="1559662997583" expanded="true" signature="7184:7321" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
@@ -1088,41 +952,16 @@
             <marker date="1559662997583" expanded="true" signature="7914:8022" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
             <marker date="1559662997583" expanded="true" signature="8078:8244" ph="{...}" />
             <marker date="1559662997583" expanded="true" signature="8134:8234" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains the right characters and strings in the right order ... " />
+            <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
             <marker date="1559662997583" expanded="true" signature="8485:8687" ph="{...}" />
             <marker date="1559662997583" expanded="true" signature="8544:8677" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <marker date="1559663088840" expanded="false" signature="6:193" ph="..." />
-            <marker date="1559663088840" expanded="true" signature="219:4072" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="262:4070" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="308:756" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// ... " />
-            <marker date="1559663088840" expanded="true" signature="1136:1426" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="1444:1567" ph="///  ... " />
-            <marker date="1559663088840" expanded="true" signature="1619:1890" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="1908:2048" ph="///  ... " />
-            <marker date="1559663088840" expanded="true" signature="2098:2385" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///  ... " />
-            <marker date="1559663088840" expanded="true" signature="2581:3009" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="2706:2999" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///  ... " />
-            <marker date="1559663088840" expanded="true" signature="3206:4064" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="3328:4054" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="1020">
           <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
           <folding>
             <marker date="1559662997569" expanded="false" signature="6:151" ph="..." />
@@ -1130,45 +969,52 @@
             <marker date="1559662997569" expanded="true" signature="249:2814" ph="{...}" />
             <marker date="1559662997569" expanded="true" signature="310:757" ph="{...}" />
             <marker date="1559662997569" expanded="true" signature="428:530" ph="{...}" />
-            <marker date="1559662997569" expanded="true" signature="811:944" ph="///  ... " />
+            <marker date="1559662997569" expanded="true" signature="811:944" ph="/// Makes sure the active state becomes GameOver when receiving the message &quot;GAME_OVER&quot;. ... " />
             <marker date="1559662997569" expanded="true" signature="1000:1379" ph="{...}" />
-            <marker date="1559662997569" expanded="true" signature="1389:1526" ph="///  ... " />
+            <marker date="1559662997569" expanded="true" signature="1389:1526" ph="/// Makes sure the active state becomes GamePaused when receiving the message &quot;GAME_PAUSED&quot;. ... " />
             <marker date="1559662997569" expanded="true" signature="1580:1963" ph="{...}" />
-            <marker date="1559662997569" expanded="true" signature="1973:2112" ph="///  ... " />
+            <marker date="1559662997569" expanded="true" signature="1973:2112" ph="/// Makes sure the active state becomes SelectLevel when receiving the message &quot;SELECT_LEVEL&quot;. ... " />
             <marker date="1559662997569" expanded="true" signature="2171:2556" ph="{...}" />
-            <marker date="1559662997569" expanded="true" signature="2566:2664" ph="///  ... " />
+            <marker date="1559662997569" expanded="true" signature="2566:2664" ph="/// Tests that the initial state is in fact MainMenu. ... " />
             <marker date="1559662997569" expanded="true" signature="2719:2808" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        <state relative-caret-position="1394">
+          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
           <folding>
             <marker date="1559663443972" expanded="false" signature="6:53" ph="..." />
             <marker date="1559663443972" expanded="true" signature="94:3341" ph="{...}" />
             <marker date="1559663443972" expanded="true" signature="136:3339" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="155:274" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="155:274" ph="/// Testing the string &quot;GAME_PAUSED&quot; changes GameStateType to GamePaused.  ... " />
             <marker date="1559663443972" expanded="true" signature="327:465" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="483:602" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="483:602" ph="/// Testing the GameStateType GamePaused returns the string &quot;GAME_PAUSED&quot;. ... " />
             <marker date="1559663443972" expanded="true" signature="655:793" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="803:923" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="803:923" ph="/// Testing the string &quot;GAME_RUNNING&quot; changes GameStateType to GameRunning. ... " />
             <marker date="1559663443972" expanded="true" signature="978:1118" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1136:1251" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="1136:1251" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
             <marker date="1559663443972" expanded="true" signature="1306:1440" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1450:1564" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="1450:1564" ph="/// Testing the string &quot;MAIN_MENU&quot; changes GameStateType to MainMenu. ... " />
             <marker date="1559663443972" expanded="true" signature="1616:1750" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1760:1875" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="1760:1875" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
             <marker date="1559663443972" expanded="true" signature="1927:2061" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2071:2185" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="2071:2185" ph="/// Testing the string &quot;GAME_OVER&quot; changes GameStateType to GameOver. ... " />
             <marker date="1559663443972" expanded="true" signature="2237:2371" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2381:2496" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="2381:2496" ph="/// Testing the GameStateType GameOver returns the string &quot;GAME_OVER&quot;. ... " />
             <marker date="1559663443972" expanded="true" signature="2548:2682" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2692:2812" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="2692:2812" ph="/// Testing the string &quot;SELECT_LEVEL&quot; changes GameStateType to SelectLevel. ... " />
             <marker date="1559663443972" expanded="true" signature="2867:3007" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="3017:3138" ph="///  ... " />
+            <marker date="1559663443972" expanded="true" signature="3017:3138" ph="/// Testing the GameStateType SelectLevel returns the string &quot;SELECT_LEVEL&quot;. ... " />
             <marker date="1559663443972" expanded="true" signature="3193:3333" ph="{...}" />
           </folding>
         </state>
