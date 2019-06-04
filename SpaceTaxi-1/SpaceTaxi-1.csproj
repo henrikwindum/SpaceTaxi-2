@@ -43,26 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Collision.cs" />
-    <Compile Include="Customer.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="PaintBoard.cs" />
-    <Compile Include="Platform.cs" />
+    <Compile Include="LevelParser\PaintBoard.cs" />
+    <Compile Include="LevelParser\Platform.cs" />
+    <Compile Include="LevelParser\ReadFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadFile.cs" />
-    <Compile Include="SpaceBus.cs" />
     <Compile Include="SpaceStates\GameOver.cs" />
     <Compile Include="SpaceStates\GamePaused.cs" />
     <Compile Include="SpaceStates\GameRunning.cs" />
     <Compile Include="SpaceStates\GameStateType.cs" />
     <Compile Include="SpaceStates\MainMenu.cs" />
     <Compile Include="SpaceStates\SelectLevel.cs" />
+    <Compile Include="SpaceStates\SpaceBus.cs" />
     <Compile Include="SpaceStates\StateMachine.cs" />
     <Compile Include="SpaceStates\StateTransformer.cs" />
+    <Compile Include="Taxi\Collision.cs" />
+    <Compile Include="Taxi\Customer.cs" />
     <Compile Include="Taxi\Orientation.cs" />
     <Compile Include="Taxi\Player.cs" />
-    <Compile Include="Textplate.cs" />
+    <Compile Include="Taxi\Textplate.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\DIKUArcade\DIKUArcade\DIKUArcade.csproj">

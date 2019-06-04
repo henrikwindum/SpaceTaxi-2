@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_SpaceTaxi.718951147.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$/../../git/DIKUArcade/DIKUArcade" t="IncludeRecursive">
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_SpaceTaxi.-509912273.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../DIKUArcade/DIKUArcade" t="IncludeRecursive">
       <e p="DIKUArcade.csproj" t="IncludeRecursive" />
       <e p="Entities" t="Include">
         <e p="DynamicShape.cs" t="Include" />
