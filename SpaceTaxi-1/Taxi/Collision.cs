@@ -14,7 +14,6 @@ namespace SpaceTaxi_1 {
         private List<Image> explosionStrides;
         public List<Player> PlayerList;
 
-
         public Collision() {
             explosionStrides =
                 ImageStride.CreateStrides(8, Path.Combine("Assets", "Images", "Explosion.png"));
