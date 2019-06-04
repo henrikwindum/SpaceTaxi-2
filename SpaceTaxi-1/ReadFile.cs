@@ -71,7 +71,8 @@ namespace SpaceTaxi_1 {
             dir = dir.Parent;
             var path = Path.Combine(dir.FullName, "Levels", fileName);
             if (!File.Exists(path)) {
-                throw new FileNotFoundException($"Error: The file \"{path}\" does not exist.");
+                throw new FileNotFoundException($"Error: The file " +
+                                                $"\"{path}\" does not exist.");
             }
 
             return path;

@@ -23,7 +23,8 @@ namespace SpaceTaxi_1.SpaceStates {
             player.SetPosition(0.45f, 0.6f);
 
             backGroundImage = new Entity(
-                new StationaryShape(new Vec2F(0.0f, 0.0f), new Vec2F(1.0f, 1.0f)),
+                new StationaryShape(new Vec2F(0.0f, 0.0f), 
+                    new Vec2F(1.0f, 1.0f)),
                 new Image(Path.Combine("Assets", "Images", "SpaceBackground.png"))
             );
 

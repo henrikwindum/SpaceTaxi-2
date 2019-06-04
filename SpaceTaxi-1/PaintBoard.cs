@@ -45,16 +45,20 @@ namespace SpaceTaxi_1 {
                         // handles customers
                         if (readFile.CustomerDict.ContainsKey(currentString[j]) &&
                             currentPlatform == currentString[j]) {
-                            customer.MaxRight = new Vec2F(j * height, i * width + 1.75f * height);
+                            customer.MaxRight = 
+                                new Vec2F(j * height, i * width + 1.75f * height);
                         } else if (readFile.CustomerDict.ContainsKey(currentString[j])) {
                             customer = new Customer(
-                                new DynamicShape(new Vec2F(j * height, i * width + 1.75f * height),
+                                new DynamicShape(
+                                    new Vec2F(j * height, i * width + 1.75f * height),
                                     new Vec2F(0.05f, 0.05f)),
                                 new Image(
                                     Path.Combine("Assets", "Images", "CustomerStandRight.png")));
 
-                            customer.MaxRight = new Vec2F(j * height, i * width + 1.75f * height);
-                            customer.MaxLeft = new Vec2F(j * height, i * width + 1.75f * height);
+                            customer.MaxRight = 
+                                new Vec2F(j * height, i * width + 1.75f * height);
+                            customer.MaxLeft = 
+                                new Vec2F(j * height, i * width + 1.75f * height);
                             customer.Instantiate(readFile.CustomerDict, currentString[j]);
                             Customers.Add(customer);
                             currentPlatform = currentString[j];

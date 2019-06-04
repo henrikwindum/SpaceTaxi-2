@@ -20,7 +20,8 @@ namespace SpaceTaxi_1.SpaceStates {
                     break;
                 }
             } else if (eventType == GameEventType.InputEvent) {
-                ActiveState.HandleKeyEvent(gameEvent.Message, gameEvent.Parameter1);
+                ActiveState.HandleKeyEvent(gameEvent.Message, 
+                    gameEvent.Parameter1);
             }
         }
 

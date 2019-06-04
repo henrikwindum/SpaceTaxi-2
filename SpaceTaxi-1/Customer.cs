@@ -1,10 +1,12 @@
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using DIKUArcade.Entities;
 using DIKUArcade.Graphics;
 using DIKUArcade.Math;
 using DIKUArcade.Timers;
 using SpaceTaxi_1.Taxi;
+using Image = DIKUArcade.Graphics.Image;
 
 namespace SpaceTaxi_1 {
     public class Customer : Entity {
@@ -47,7 +49,8 @@ namespace SpaceTaxi_1 {
                     CustomerOrientation = Orientation.Right;
                 }
 
-                Entity.Image = new Image(Path.Combine("Assets", "Images", "CustomerStandLeft.png"));
+                Entity.Image = new Image(Path.Combine("Assets", "Images", 
+                    "CustomerStandLeft.png"));
                 Shape.MoveX(-0.001f);
             }
         }

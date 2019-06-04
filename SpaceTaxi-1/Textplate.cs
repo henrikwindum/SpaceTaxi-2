@@ -16,7 +16,8 @@ namespace SpaceTaxi_1 {
 
         public Textplate() {
             textPlate = new Entity(
-                new StationaryShape(new Vec2F(0.0f, 0.0f), new Vec2F(1.0f, 0.05f)),
+                new StationaryShape(new Vec2F(0.0f, 0.0f), 
+                    new Vec2F(1.0f, 0.05f)),
                 new Image(Path.Combine("Assets", "Images", "white-square.png")));
 
             scoreText = new Text("",
