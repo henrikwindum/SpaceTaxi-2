@@ -25,6 +25,9 @@ namespace SpaceTaxiStateMachineTesting {
 
         private StateMachine stateMachine;
 
+        /// <summary>
+        /// Makes sure the active state becomes GameOver when receiving the message "GAME_OVER".
+        /// </summary>
         [Test]
         public void TestEventGameOver() {
             SpaceBus.GetBus()
@@ -36,6 +39,9 @@ namespace SpaceTaxiStateMachineTesting {
             Assert.That(stateMachine.ActiveState, Is.InstanceOf<GameOver>());
         }
 
+        /// <summary>
+        /// Makes sure the active state becomes GamePaused when receiving the message "GAME_PAUSED".
+        /// </summary>
         [Test]
         public void TestEventPaused() {
             SpaceBus.GetBus()
@@ -47,6 +53,9 @@ namespace SpaceTaxiStateMachineTesting {
             Assert.That(stateMachine.ActiveState, Is.InstanceOf<GamePaused>());
         }
 
+        /// <summary>
+        /// Makes sure the active state becomes SelectLevel when receiving the message "SELECT_LEVEL".
+        /// </summary>
         [Test]
         public void TestEventSelectLevel() {
             SpaceBus.GetBus()
@@ -58,6 +67,9 @@ namespace SpaceTaxiStateMachineTesting {
             Assert.That(stateMachine.ActiveState, Is.InstanceOf<SelectLevel>());
         }
 
+        /// <summary>
+        /// Tests that the initial state is in fact MainMenu.
+        /// </summary>
         [Test]
         public void TestInitialState() {
             Assert.That(stateMachine.ActiveState, Is.InstanceOf<MainMenu>());
