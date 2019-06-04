@@ -12,6 +12,12 @@ namespace SpaceTaxi_1.SpaceStates {
 
         public IGameState ActiveState { get; private set; }
 
+        /// <summary>
+        /// Processes events of a given type, changing the active state or calling
+        /// handleKeyEvent of the active state
+        /// </summary>
+        /// <param name="eventType">The identified event.</param>
+        /// <param name="gameEvent">The active event that are send between system parts.</param>
         public void ProcessEvent(GameEventType eventType, GameEvent<object> gameEvent) {
             if (eventType == GameEventType.GameStateEvent) {
                 switch (gameEvent.Message) {
@@ -25,7 +31,10 @@ namespace SpaceTaxi_1.SpaceStates {
             }
         }
 
-
+        /// <summary>
+        /// Sets the active state.
+        /// </summary>
+        /// <param name="stateType">Current GameStateType.</param>
         private void SwitchState(GameStateType stateType) {
             switch (stateType) {
             case GameStateType.MainMenu:

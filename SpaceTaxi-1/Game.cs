@@ -35,7 +35,13 @@ namespace SpaceTaxi_1 {
             SpaceBus.GetBus().Subscribe(GameEventType.PlayerEvent, this);
             SpaceBus.GetBus().Subscribe(GameEventType.GameStateEvent, this);
         }
-
+        
+        /// <summary>
+        /// Given a GameEventType and a GameEvent, calls CloseWindow(), KeyPress() or
+        /// KeyRelease, depending on the GameEventType and GameEvent.
+        /// </summary>
+        /// <param name="eventType">The identified event.</param>
+        /// <param name="gameEvent">The active event that are send between system parts.</param>
         public void ProcessEvent(GameEventType eventType, GameEvent<object> gameEvent) {
             if (eventType == GameEventType.WindowEvent) {
                 switch (gameEvent.Message) {
@@ -54,7 +60,10 @@ namespace SpaceTaxi_1 {
                 }
             }
         }
-
+        
+        /// <summary>
+        /// The Game Loop ("runs" the game).
+        /// </summary>
         public void GameLoop() {
             while (win.IsRunning()) {
                 gameTimer.MeasureTime();
@@ -78,7 +87,12 @@ namespace SpaceTaxi_1 {
                 }
             }
         }
-
+        
+        /// <summary>
+        /// Given a string corresponding to a pressed key, either calls CloseWindow(),
+        /// SaveScreenShot(), or registers an PlayerEvent.
+        /// </summary>
+        /// <param name="key">The pressed key as a string.</param>
         public void KeyPress(string key) {
             switch (key) {
             case "KEY_ESCAPE":
@@ -108,7 +122,11 @@ namespace SpaceTaxi_1 {
                 break;
             }
         }
-
+        
+        /// <summary>
+        /// Given a string corresponding to a released key, registers a PlayerEvent.
+        /// </summary>
+        /// <param name="key">The released key as a string.</param>
         public void KeyRelease(string key) {
             switch (key) {
             case "KEY_LEFT":

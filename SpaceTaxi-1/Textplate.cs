@@ -33,8 +33,11 @@ namespace SpaceTaxi_1 {
             namePlatformText.SetColor(Color.Red);
         }
 
-        public void Render(Player player) {
-            textPlate.RenderEntity();
+        /// <summary>
+        /// Updates scoreText, timerText and namePlatformText.
+        /// </summary>
+        /// <param name="player">the Player.</param>
+        public void Update(Player player) {
             scoreText.SetText("Score: " + player.Score);
             if (player.CurrentCustomer != null) {
                 var temp = player.CurrentCustomer.TimeLimit -
@@ -46,7 +49,13 @@ namespace SpaceTaxi_1 {
                 timerText.SetText("Timer: " + StaticTimer.GetElapsedSeconds());
                 namePlatformText.SetText("");
             }
-
+        }
+        
+        /// <summary>
+        /// Renders textPlate, scoreText, timerText and namePlatformText.
+        /// </summary>
+        public void Render() {
+            textPlate.RenderEntity();            
             scoreText.RenderText();
             timerText.RenderText();
             namePlatformText.RenderText();

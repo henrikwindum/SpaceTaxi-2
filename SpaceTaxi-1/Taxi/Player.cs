@@ -23,8 +23,7 @@ namespace SpaceTaxi_1.Taxi {
         private Vec2F moveLeft = new Vec2F(0.00005f, 0.0f);
         private Vec2F moveRight = new Vec2F(-0.00005f, 0.0f);
         private Vec2F moveUp = new Vec2F(0.0f, 0.00005f);
-        public int Score;
-        private Vec2F stopMovement = new Vec2F(0.0f, 0.0f);
+        public int Score;        
         private Orientation taxiOrientation;
 
         private List<Image> taxiStrides;
@@ -49,7 +48,12 @@ namespace SpaceTaxi_1.Taxi {
         }
 
         public Entity Entity { get; }
-
+        
+        /// <summary>
+        /// Processes events related to player movement.
+        /// </summary>
+        /// <param name="eventType">The current GameEventType</param>
+        /// <param name="gameEvent">The active event that are send between system parts.</param>
         public void ProcessEvent(GameEventType eventType, GameEvent<object> gameEvent) {
             if (eventType == GameEventType.PlayerEvent) {
                 switch (gameEvent.Message) {
@@ -65,26 +69,42 @@ namespace SpaceTaxi_1.Taxi {
                     MovementLeft();
                     break;
                 case "STOP_ACCELERATE_LEFT":
+                    StopMovementLeft();
+                    break;
                 case "STOP_ACCELERATE_RIGHT":
+                    StopMovementRight();
+                    break;
                 case "STOP_ACCELERATE_UP":
-                    StopMovement();
+                    StopMovementUp();                    
                     break;
                 }
             }
         }
-
+        
+        /// <summary>
+        /// Sets the position of the player.
+        /// </summary>
+        /// <param name="x">the x-coordinate.</param>
+        /// <param name="y">the y-coordinate.</param>
         public void SetPosition(float x, float y) {
             shape.Position.X = x;
             shape.Position.Y = y;
         }
 
+        /// <summary>
+        /// Sets the extent of the player.
+        /// </summary>
+        /// <param name="width">x-range of the extent.</param>
+        /// <param name="height">y-range of the extent.</param>
         public void SetExtent(float width, float height) {
             shape.Extent.X = width;
             shape.Extent.Y = height;
         }
-
-        public void RenderPlayer() {
-            //TODO: Next version needs animation. Skipped for clarity.
+        
+        /// <summary>
+        /// Renders the player.
+        /// </summary>
+        public void RenderPlayer() {            
             Entity.Image = taxiOrientation == Orientation.Left
                 ? taxiBoosterOffImageLeft
                 : taxiBoosterOffImageRight;
@@ -94,11 +114,18 @@ namespace SpaceTaxi_1.Taxi {
                 stride.Render(shape);
             }
         }
-
+        
+        /// <summary>
+        /// Applies gravity to the player.
+        /// </summary>
         public void Gravity() {
             shape.Direction += gravity;
         }
-
+        
+        /// <summary>
+        /// Sets taxiStrides to the correct ImageStride given the corresponding orientation and
+        /// current pressed keys.
+        /// </summary>
         private void ActivateThrusters() {
             if (boolMoveUp) {
                 if (taxiOrientation == Orientation.Left) {
@@ -134,26 +161,52 @@ namespace SpaceTaxi_1.Taxi {
                 taxiStrides.Clear();
             }
         }
-
+        
+        /// <summary>
+        /// Sets boolMoveUp to true. This is used in checking which keys are currently pressed.
+        /// </summary>
         private void MovementUp() {
             boolMoveUp = true;
         }
-
+        
+        /// <summary>
+        /// Sets boolMoveLeft to true. This is used in checking which keys are currently pressed.
+        /// </summary>
         private void MovementLeft() {
             boolMoveLeft = true;
         }
-
+        
+        /// <summary>
+        /// Sets boolMoveRight to true. This is used in checking which keys are currently pressed.
+        /// </summary>
         private void MovementRight() {
             boolMoveRight = true;
         }
-
-        private void StopMovement() {
-            boolMoveUp = false;
-            boolMoveRight = false;
+        
+        /// <summary>
+        /// Sets boolMoveLeft to false. This is used in checking which keys are currently pressed.
+        /// </summary>
+        private void StopMovementRight() {
             boolMoveLeft = false;
         }
 
-
+        /// <summary>
+        /// Sets boolMoveRight to false. This is used in checking which keys are currently pressed.
+        /// </summary>
+        private void StopMovementLeft() {
+            boolMoveRight = false;
+        }
+        
+        /// <summary>
+        /// Sets boolMoveUp to false. This is used in checking which keys are currently pressed.
+        /// </summary>
+        private void StopMovementUp() {
+            boolMoveUp = false;
+        }
+        
+        /// <summary>
+        /// Adds "force" to current direction of the player.
+        /// </summary>
         public void Movement() {
             if (boolMoveUp) {
                 shape.Direction += moveUp;
@@ -167,7 +220,10 @@ namespace SpaceTaxi_1.Taxi {
                 shape.Direction += moveRight;
             }
         }
-
+        
+        /// <summary>
+        /// Sets BoolPassenger to false, currentCustomer to null and restarts the timer.
+        /// </summary>
         public void DropOff() {
             if (BoolPassenger) {
                 BoolPassenger = false;
@@ -175,7 +231,11 @@ namespace SpaceTaxi_1.Taxi {
                 StaticTimer.RestartTimer();
             }
         }
-
+        
+        /// <summary>
+        /// Upon failing a delivery, a GameStateEvent is registered such that the active
+        /// GameStateType is set to GameOver.
+        /// </summary>
         public void FailedDelivery() {
             if (BoolPassenger && CurrentCustomer.TimeLimit < StaticTimer.GetElapsedSeconds()) {
                 SpaceBus.GetBus().RegisterEvent(
@@ -184,13 +244,22 @@ namespace SpaceTaxi_1.Taxi {
                         "CHANGE_STATE", "GAME_OVER", ""));
             }
         }
-
+        
+        /// <summary>
+        /// Splits the string containing information about the drop-off platform of the
+        /// currently held passenger.
+        /// </summary>
         private void SplitPlatform() {
             if (CurrentCustomer.Platform.Length > 1) {
                 CurrentCustomer.Platform = CurrentCustomer.Platform[1].ToString();
             }
         }
-
+        
+        /// <summary>
+        /// Sets BoolPassenger to true, CurrrentCustomer to the given Customer,
+        /// calls SplitPlatform(), and restarts the timer. 
+        /// </summary>
+        /// <param name="customer">The customer that is picked up.</param>
         public void PickUp(Customer customer) {
             if (!BoolPassenger) {
                 BoolPassenger = true;

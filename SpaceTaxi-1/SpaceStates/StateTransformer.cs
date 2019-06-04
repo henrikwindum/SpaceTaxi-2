@@ -2,6 +2,13 @@ using System;
 
 namespace SpaceTaxi_1.SpaceStates {
     public class StateTransformer {
+        
+        /// <summary>
+        /// Transforms a given string (ex. "GAME_RUNNING") to a GameStateType.
+        /// </summary>
+        /// <param name="state">the string to be transformed.</param>
+        /// <returns>The GameStateType corresponding to the string (state).</returns>
+        /// <exception cref="Exception">Given a invalid string, an exception is thrown.</exception>
         public static GameStateType TransformStringToState(string state) {
             switch (state) {
             case "GAME_RUNNING":
@@ -19,6 +26,13 @@ namespace SpaceTaxi_1.SpaceStates {
             }
         }
 
+        /// <summary>
+        /// Transform a given GameStateType to a string.
+        /// </summary>
+        /// <param name="state">The GameStateType to be transformed.</param>
+        /// <returns>The string corresponding to the given GameStateType.</returns>
+        /// <exception cref="Exception">Given an invalid GameStateType,
+        /// an exception is thrown.</exception>
         public static string TransformStateToString(GameStateType state) {
             switch (state) {
             case GameStateType.GameRunning:

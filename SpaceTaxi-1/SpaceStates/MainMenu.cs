@@ -36,6 +36,9 @@ namespace SpaceTaxi_1.SpaceStates {
 
         public void InitializeGameState() { }
 
+        /// <summary>
+        /// Updates button colors in the Main Menu depending on them being active/inactive.
+        /// </summary>
         public void UpdateGameLogic() {
             foreach (var button in menuButtons) {
                 button.SetColor(Color.White);
@@ -44,13 +47,23 @@ namespace SpaceTaxi_1.SpaceStates {
             menuButtons[activeMenuButton].SetColor(Color.Red);
         }
 
+        /// <summary>
+        /// Renders background and buttons.
+        /// </summary>
         public void RenderState() {
             backGroundImage.RenderEntity();
             foreach (var button in menuButtons) {
                 button.RenderText();
             }
         }
-
+        
+        
+        /// <summary>
+        /// Handles key events. Increasing/decreasing the value of activeMenuButton or registering
+        /// an event.
+        /// </summary>
+        /// <param name="keyValue">The pressed/released key.</param>
+        /// <param name="keyAction">Information of whether key pressed or released</param>
         public void HandleKeyEvent(string keyValue, string keyAction) {
             switch (keyValue) {
             case "KEY_UP":
@@ -101,7 +114,11 @@ namespace SpaceTaxi_1.SpaceStates {
                 break;
             }
         }
-
+        
+        /// <summary>
+        /// Gets an instance of MainMenu.
+        /// </summary>
+        /// <returns>Returns an instance of MainMenu</returns>   
         public static MainMenu GetInstance() {
             return MainMenu.instance ?? (MainMenu.instance = new MainMenu());
         }

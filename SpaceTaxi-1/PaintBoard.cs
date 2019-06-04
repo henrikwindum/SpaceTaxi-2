@@ -26,6 +26,10 @@ namespace SpaceTaxi_1 {
             CreateBoard();
         }
 
+        /// <summary>
+        /// Instantiates and adds all platforms, walls/terrain and customers to
+        /// lists/EntityContainers. 
+        /// </summary>
         private void CreateBoard() {
             for (var i = 0; i < readFile.BoardList.Count; i++) {
                 var currentPlatform = ' ';
