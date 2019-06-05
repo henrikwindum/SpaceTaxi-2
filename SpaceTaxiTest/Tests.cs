@@ -1,6 +1,4 @@
-﻿using System;
-using System.IO;
-using DIKUArcade;
+﻿using System.IO;
 using DIKUArcade.Entities;
 using DIKUArcade.Graphics;
 using DIKUArcade.Timers;
@@ -11,26 +9,22 @@ using SpaceTaxi_1.Taxi;
 namespace SpaceTaxiTest {
     [TestFixture]
     public class Tests {
+       
+        
         [SetUp]
         public void SetUp() {
-            Window.CreateOpenGLContext();
+            paintBoard = new PaintBoard();
             
+            game = new Game();
             player = new Player();
             customer = new Customer(new Shape(), new Image(Path.Combine("Assets", "Images", 
                 "CustomerStandRight.png")));
-            customer2 = new Customer(new Shape(), new Image(Path.Combine("Assets", "Images", 
-                "CustomerStandRight.png")));
-
-            
-            paintBoard = new PaintBoard();
-            
         }
 
-        private ReadFile readFile;
+        private Game game;
         private PaintBoard paintBoard;
         private Player player;
         private Customer customer;
-        private Customer customer2;
         
         /// <summary>
         /// Tests if the player´s bool "BoolPassenger" is set to true upon a pick up of a customer
@@ -51,13 +45,15 @@ namespace SpaceTaxiTest {
         /// </summary>
         [Test]
         public void NotPickUpTest() {
-            player.BoolPassenger = true;
-            player.CurrentCustomer = customer;
+            paintBoard.PaintTheBoard("the-beach.txt");
             
-            player.PickUp(customer2);
+            player.BoolPassenger = true;
+            player.CurrentCustomer = paintBoard.Customers[0];
+            
+            player.PickUp(paintBoard.Customers[1]);
             
             Assert.That(player.BoolPassenger);
-            Assert.That(player.CurrentCustomer == customer);
+            Assert.That(player.CurrentCustomer == paintBoard.Customers[0]);
         }
         
         /// <summary>
@@ -66,7 +62,6 @@ namespace SpaceTaxiTest {
         [Test]
         public void DropOffTest() {
             player.BoolPassenger = true;
-            
             player.DropOff();
             
             Assert.That(player.BoolPassenger == false);

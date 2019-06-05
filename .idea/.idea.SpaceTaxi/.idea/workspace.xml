@@ -2,14 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618ee419-f2a8-44df-8c45-2b71eb6aba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTaxi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/DIKUArcade.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/bin/Debug/SpaceTaxi_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi-1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi-1/obj/Debug/SpaceTaxi_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxi.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/CustomerStandLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/CustomerStandRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/CustomerWalkLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/CustomerWalkRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/GameOver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/SpaceBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/SpaceTaxiImage.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/SpaceTaxiImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Back_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Bottom_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Bottom_Back_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_Bottom_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_None.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Taxi_Thrust_None_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Back_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Bottom_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Bottom_Back_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_Bottom_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_None.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/Txi_Thrust_None_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-top-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-top-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-edge-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-passage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-passage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/aspargus-passage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/deep-bronze-left-half-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/deep-bronze-right-half-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/deep-bronze-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/emperor-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/emperor-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/emperor-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/emperor-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/emperor-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/generate-images.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/green-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/green-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/green-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/green-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/green-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/ironstone-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/ironstone-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/ironstone-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/ironstone-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/ironstone-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/minsk-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/nandor-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/neptune-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/neptune-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/neptune-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/neptune-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/neptune-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/obstacle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/olive-green-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/purple-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/salt-box-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine-brown-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine-brown-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine-brown-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine-brown-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine-brown-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine_brown-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine_brown-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine_brown-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine_brown-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/sanguine_brown-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/studio-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/studio-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/studio-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/studio-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/studio-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/tacha-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/tacha-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-left-half-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-lower-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-lower-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-right-half-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-upper-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/white-upper-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Assets/Images/yellow-stick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/LevelParserTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Levels/short-n-sweet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Levels/the-beach.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/SpaceTaxiStateMachineTesting.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/StateMachineTesting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/StateTranformerTesting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/DIKUArcade.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/OpenTK.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/OpenTK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/bin/Debug/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/SpaceTaxiStateMachineTesting.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/SpaceTaxiTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/SpaceTaxiTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/DIKUArcade.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxiTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/bin/Debug/SpaceTaxi_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceTaxiTest/obj/Debug/SpaceTaxiTest.pdb" afterDir="false" />
     </list>
@@ -19,36 +151,72 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpaceTaxi" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GamePaused.cs">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="289">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <marker date="1559661297624" expanded="false" signature="6:232" ph="..." />
-                <marker date="1559661297624" expanded="true" signature="268:4310" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="311:4308" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="495:1135" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="765:1089" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="1236:1371" ph="/// Updates button colors in the Game Paused menu depending on them being active/inactive. ... " />
-                <marker date="1559661297624" expanded="true" signature="1410:1595" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="1460:1521" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="1613:1693" ph="/// Renders background and buttons. ... " />
-                <marker date="1559661297624" expanded="true" signature="1728:1879" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="1817:1869" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="1889:2206" ph="/// Handles key events. Increasing/decreasing the value of activeMenuButton or registering ... " />
-                <marker date="1559661297624" expanded="true" signature="2277:3995" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2309:3985" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2384:2517" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2432:2499" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2617:2771" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2686:2753" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="2868:3947" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="3612:3901" ph="{...}" />
-                <marker date="1559661297624" expanded="true" signature="4013:4159" ph="/// Gets an instance of GameOver. ... " />
-                <marker date="1559661297624" expanded="true" signature="4207:4302" ph="{...}" />
+                <marker date="1559661297632" expanded="false" signature="6:193" ph="..." />
+                <marker date="1559661297632" expanded="true" signature="222:9708" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="278:9706" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="1018:1662" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="1719:1979" ph="/// Processes events related to player movement. ... " />
+                <marker date="1559661297632" expanded="true" signature="2067:2989" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="2125:2979" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="2170:2965" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="3007:3196" ph="/// Sets the position of the player. ... " />
+                <marker date="1559661297632" expanded="true" signature="3247:3326" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="3336:3542" ph="/// Sets the extent of the player. ... " />
+                <marker date="1559661297632" expanded="true" signature="3600:3684" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="3702:3770" ph="/// Renders the player. ... " />
+                <marker date="1559661297632" expanded="true" signature="3806:4148" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="4085:4138" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="4166:4245" ph="/// Applies gravity to the player. ... " />
+                <marker date="1559661297632" expanded="true" signature="4276:4327" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="4345:4511" ph="/// Sets taxiStrides to the correct ImageStride given the corresponding orientation and ... " />
+                <marker date="1559661297632" expanded="true" signature="4553:6007" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="4583:5000" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="4642:4814" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="5032:5433" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="5066:5243" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="5466:5855" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="5500:5671" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="5945:5997" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="6025:6157" ph="/// Sets boolMoveUp to true. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="6192:6234" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="6252:6386" ph="/// Sets boolMoveLeft to true. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="6423:6467" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="6485:6620" ph="/// Sets boolMoveRight to true. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="6658:6703" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="6721:6856" ph="/// Sets boolMoveLeft to false. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="6898:6943" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="6953:7089" ph="/// Sets boolMoveRight to false. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="7130:7176" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7194:7327" ph="/// Sets boolMoveUp to false. This is used in checking which keys are currently pressed. ... " />
+                <marker date="1559661297632" expanded="true" signature="7366:7409" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7427:7524" ph="/// Adds &quot;force&quot; to current direction of the player. ... " />
+                <marker date="1559661297632" expanded="true" signature="7556:7840" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7586:7644" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7676:7736" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7769:7830" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="7858:7983" ph="/// Sets BoolPassenger to false, currentCustomer to null and restarts the timer. ... " />
+                <marker date="1559661297632" expanded="true" signature="8014:8195" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="8047:8185" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="8213:8384" ph="/// Upon failing a delivery, a GameStateEvent is registered such that the active ... " />
+                <marker date="1559661297632" expanded="true" signature="8422:8785" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="8518:8775" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="8803:8965" ph="/// Splits the string containing information about the drop-off platform of the ... " />
+                <marker date="1559661297632" expanded="true" signature="9003:9166" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="9058:9156" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="9184:9435" ph="/// Sets BoolPassenger to true, CurrrentCustomer to the given Customer, ... " />
+                <marker date="1559661297632" expanded="true" signature="9482:9700" ph="{...}" />
+                <marker date="1559661297632" expanded="true" signature="9516:9690" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,7 +225,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Game.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
+            <state relative-caret-position="2176">
               <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
               <folding>
                 <marker date="1559661297620" expanded="false" signature="6:148" ph="..." />
@@ -88,118 +256,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/DynamicShape.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <marker date="1552646568773" expanded="true" signature="54:1509" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="94:1507" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="104:204" ph="///     Only dynamic entities carry a direction vector. ... " />
-                <marker date="1552646568773" expanded="true" signature="317:458" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="609:684" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="739:844" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="910:1007" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="1056:1096" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="1107:1265" ph="///     Overrides the default Shape.Move() method to add ... " />
-                <marker date="1552646568773" expanded="true" signature="1302:1348" ph="{...}" />
-                <marker date="1552646568773" expanded="true" signature="1424:1501" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="71">
+              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
-                <marker date="1559663088840" expanded="false" signature="6:193" ph="..." />
-                <marker date="1559663088840" expanded="true" signature="219:4072" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="262:4070" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="308:756" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
-                <marker date="1559663088840" expanded="true" signature="1136:1426" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="1444:1567" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
-                <marker date="1559663088840" expanded="true" signature="1619:1890" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="1908:2048" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
-                <marker date="1559663088840" expanded="true" signature="2098:2385" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
-                <marker date="1559663088840" expanded="true" signature="2581:3009" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="2706:2999" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
-                <marker date="1559663088840" expanded="true" signature="3206:4064" ph="{...}" />
-                <marker date="1559663088840" expanded="true" signature="3328:4054" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="6:161" ph="..." />
+                <marker date="1559721782522" expanded="true" signature="187:3935" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="230:3933" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="293:564" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="715:851" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
+                <marker date="1559721782522" expanded="true" signature="900:1190" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="1208:1331" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
+                <marker date="1559721782522" expanded="true" signature="1383:1766" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="1784:1924" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
+                <marker date="1559721782522" expanded="true" signature="1974:2248" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="2258:2382" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
+                <marker date="1559721782522" expanded="true" signature="2444:2872" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="2569:2862" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="2890:3010" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
+                <marker date="1559721782522" expanded="true" signature="3069:3927" ph="{...}" />
+                <marker date="1559721782522" expanded="true" signature="3191:3917" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/StateTranformerTesting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="187" column="16" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
-              <folding>
-                <marker date="1559662997583" expanded="false" signature="6:136" ph="..." />
-                <marker date="1559662997583" expanded="true" signature="167:8695" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="210:8693" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="256:6054" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="531:1925" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="2001:3395" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="3489:4552" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="4610:6043" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="6375:6487" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
-                <marker date="1559662997583" expanded="true" signature="6546:6715" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="6602:6705" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
-                <marker date="1559662997583" expanded="true" signature="6963:7174" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="7025:7164" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="7184:7321" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
-                <marker date="1559662997583" expanded="true" signature="7385:7904" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="7548:7597" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="7914:8022" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
-                <marker date="1559662997583" expanded="true" signature="8078:8244" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="8134:8234" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
-                <marker date="1559662997583" expanded="true" signature="8485:8687" ph="{...}" />
-                <marker date="1559662997583" expanded="true" signature="8544:8677" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-              <folding>
-                <marker date="1559662997569" expanded="false" signature="6:151" ph="..." />
-                <marker date="1559662997569" expanded="true" signature="192:2816" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="249:2814" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="310:757" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="428:530" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="811:944" ph="/// Makes sure the active state becomes GameOver when receiving the message &quot;GAME_OVER&quot;. ... " />
-                <marker date="1559662997569" expanded="true" signature="1000:1379" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="1389:1526" ph="/// Makes sure the active state becomes GamePaused when receiving the message &quot;GAME_PAUSED&quot;. ... " />
-                <marker date="1559662997569" expanded="true" signature="1580:1963" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="1973:2112" ph="/// Makes sure the active state becomes SelectLevel when receiving the message &quot;SELECT_LEVEL&quot;. ... " />
-                <marker date="1559662997569" expanded="true" signature="2171:2556" ph="{...}" />
-                <marker date="1559662997569" expanded="true" signature="2566:2664" ph="/// Tests that the initial state is in fact MainMenu. ... " />
-                <marker date="1559662997569" expanded="true" signature="2719:2808" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+            <state relative-caret-position="1224">
+              <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
               <folding>
                 <marker date="1559663443972" expanded="false" signature="6:53" ph="..." />
                 <marker date="1559663443972" expanded="true" signature="94:3341" ph="{...}" />
@@ -230,10 +318,143 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Tests.cs">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/StateMachineTesting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1559662997569" expanded="false" signature="6:151" ph="..." />
+                <marker date="1559662997569" expanded="true" signature="192:2816" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="249:2814" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="310:757" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="428:530" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="811:944" ph="/// Makes sure the active state becomes GameOver when receiving the message &quot;GAME_OVER&quot;. ... " />
+                <marker date="1559662997569" expanded="true" signature="1000:1379" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="1389:1526" ph="/// Makes sure the active state becomes GamePaused when receiving the message &quot;GAME_PAUSED&quot;. ... " />
+                <marker date="1559662997569" expanded="true" signature="1580:1963" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="1973:2112" ph="/// Makes sure the active state becomes SelectLevel when receiving the message &quot;SELECT_LEVEL&quot;. ... " />
+                <marker date="1559662997569" expanded="true" signature="2171:2556" ph="{...}" />
+                <marker date="1559662997569" expanded="true" signature="2566:2664" ph="/// Tests that the initial state is in fact MainMenu. ... " />
+                <marker date="1559662997569" expanded="true" signature="2719:2808" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/LevelParserTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
+              <folding>
+                <marker date="1559720586009" expanded="false" signature="6:239" ph="..." />
+                <marker date="1559720586009" expanded="true" signature="270:8831" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="326:8829" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="372:6181" ph="{...}" />
+                <marker date="1559720586009" expanded="false" signature="647:2041" ph="{...}" />
+                <marker date="1559720586009" expanded="false" signature="2117:3511" ph="{...}" />
+                <marker date="1559720586009" expanded="false" signature="3605:4668" ph="{...}" />
+                <marker date="1559720586009" expanded="false" signature="4726:6159" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="6511:6623" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
+                <marker date="1559720586009" expanded="true" signature="6682:6851" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="6738:6841" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="6861:7035" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
+                <marker date="1559720586009" expanded="true" signature="7099:7310" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="7161:7300" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="7320:7457" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
+                <marker date="1559720586009" expanded="true" signature="7521:8040" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="7684:7733" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="8050:8158" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
+                <marker date="1559720586009" expanded="true" signature="8214:8380" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="8270:8370" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="8390:8560" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
+                <marker date="1559720586009" expanded="true" signature="8621:8823" ph="{...}" />
+                <marker date="1559720586009" expanded="true" signature="8680:8813" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <marker date="1559661297631" expanded="false" signature="6:239" ph="..." />
+                <marker date="1559661297631" expanded="true" signature="263:2968" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="300:2966" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="633:962" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="1019:1199" ph="/// Checks for the orientation and position of the customer, sets the current image of ... " />
+                <marker date="1559661297631" expanded="true" signature="1227:2045" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="1287:1631" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="1378:1457" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="1690:2035" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="1780:1860" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="2063:2229" ph="/// If SpawnTime of the customer is less-than or equal to the elapsed seconds, then ... " />
+                <marker date="1559661297631" expanded="true" signature="2259:2387" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="2323:2377" ph="{...}" />
+                <marker date="1559661297631" expanded="true" signature="2397:2656" ph="/// Sets Name, SpawnTime, Platform, TimeLimit and Score of the customer. ... " />
+                <marker date="1559661297631" expanded="true" signature="2732:2960" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GameRunning.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+              <folding>
+                <marker date="1559661297624" expanded="false" signature="6:227" ph="..." />
+                <marker date="1559661297624" expanded="true" signature="263:5112" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="307:5110" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="630:1178" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="1271:1499" ph="/// Updates player movement, gravity, textPlate and customer movement, checks for failed ... " />
+                <marker date="1559661297624" expanded="true" signature="1538:2089" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2031:2079" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2099:2266" ph="/// Renders the in-game background image, player, customers, platforms, walls, ... " />
+                <marker date="1559661297624" expanded="true" signature="2301:2901" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2409:2467" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2528:2578" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2701:2760" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="2919:3243" ph="/// Handles key events. When 'p' is pressed the timer is paused and the &quot;GAME_PAUSED&quot; event ... " />
+                <marker date="1559661297624" expanded="true" signature="3314:3706" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="3346:3696" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="3724:3870" ph="/// Paints the board of a given level. ... " />
+                <marker date="1559661297624" expanded="true" signature="3919:3975" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="3993:4144" ph="/// Gets an instance of GameRunning. ... " />
+                <marker date="1559661297624" expanded="true" signature="4193:4291" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="4309:4466" ph="/// Gets a new instance of GameRunning. ... " />
+                <marker date="1559661297624" expanded="true" signature="4518:4590" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="4608:4817" ph="/// Checks if the players position is higher than 0.99f, and if so, clears the current ... " />
+                <marker date="1559661297624" expanded="true" signature="4851:5104" ph="{...}" />
+                <marker date="1559661297624" expanded="true" signature="4910:5094" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/StateMachine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+              <folding>
+                <marker date="1559661297628" expanded="false" signature="6:50" ph="..." />
+                <marker date="1559661297628" expanded="true" signature="86:2284" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="148:2282" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="180:392" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="463:792" ph="/// Processes events of a given type, changing the active state or calling ... " />
+                <marker date="1559661297628" expanded="true" signature="880:1359" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="941:1179" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="986:1165" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="1228:1349" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="1369:1507" ph="/// Sets the active state. ... " />
+                <marker date="1559661297628" expanded="true" signature="1566:2276" ph="{...}" />
+                <marker date="1559661297628" expanded="true" signature="1599:2266" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -256,13 +477,13 @@
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Textplate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpaceTaxiTest/LevelParserTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Tests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/DynamicShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Customer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpaceTaxiTest/StateMachineTesting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpaceTaxiTest/StateTranformerTesting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
@@ -284,7 +505,6 @@
         <option value="$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GameStateType.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxi-1/LevelParser/ReadFile.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxi-1/LevelParser/PaintBoard.cs" />
-        <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Tests.cs" />
         <option value="$PROJECT_DIR$/LevelParserTesting/Tests.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxi-1/Taxi/Orientation.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxi-1/Platform.cs" />
@@ -305,8 +525,12 @@
         <option value="$PROJECT_DIR$/SpaceTaxi-1/Collision.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs" />
-        <option value="$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" />
         <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs" />
+        <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Tests.cs" />
+        <option value="$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Test.cs" />
+        <option value="$PROJECT_DIR$/SpaceTaxiTest/AdditionalTests.cs" />
+        <option value="$PROJECT_DIR$/SpaceTaxiTest/LevelParserTest.cs" />
+        <option value="$PROJECT_DIR$/SpaceTaxiTest/Tests.cs" />
       </list>
     </option>
   </component>
@@ -322,7 +546,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -330,33 +553,13 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DIKUArcade" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SpaceTaxi-1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SpaceTaxiTest" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SpaceTaxi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SpaceTaxiTest" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,12 +647,15 @@
       <workItem from="1559660393756" duration="245000" />
       <workItem from="1559661336215" duration="550000" />
       <workItem from="1559662015765" duration="1560000" />
-      <workItem from="1559664146233" duration="104000" />
+      <workItem from="1559664146233" duration="6196000" />
+      <workItem from="1559675672405" duration="1685000" />
+      <workItem from="1559718735374" duration="1652000" />
+      <workItem from="1559720441021" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90967000" />
+    <option name="totallyTimeSpent" value="101933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,27 +670,27 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14180107" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.14784946" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.14583333" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49932796" weight="0.3252841" />
+      <window_info id="Favorites" order="4" sideWeight="0.50141644" side_tool="true" weight="0.14583333" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49798387" weight="0.49857953" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.33238637" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932796" weight="0.33238637" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="NuGet" order="8" weight="0.042613637" />
+      <window_info anchor="bottom" id="NuGet" order="8" weight="0.3252841" />
       <window_info anchor="bottom" id="Performance Profiler" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.41761363" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" sideWeight="0.49932796" visible="true" weight="0.50142044" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067204" side_tool="true" weight="0.25710228" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067204" side_tool="true" weight="0.33238637" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,11 +716,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Math/Vec2D.cs" />
-    <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/Entity.cs" />
-    <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/EventBus/GameEvent.cs" />
-    <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/EventBus/GameEventProcessor.cs" />
-    <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Math/Vec2F.cs" />
     <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/Shape.cs" />
     <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/EventBus/GameEventQueue.cs" />
     <entry file="file://$USER_HOME$/git/DIKUArcade/DIKUArcade/Entities/EntityContainerT.cs" />
@@ -532,39 +733,6 @@
     <entry file="file://$USER_HOME$/SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Physics/CollisionDetection.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi.sln">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GameRunning.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
-          <folding>
-            <marker date="1559645620874" expanded="false" signature="6:227" ph="..." />
-            <marker date="1559645620874" expanded="true" signature="263:5112" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="307:5110" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="630:1178" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="1271:1499" ph="/// Updates button colors in the Game Paused menu depending on them being active/inactive. ... " />
-            <marker date="1559645620874" expanded="true" signature="1538:2089" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2031:2079" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2099:2266" ph="///  ... " />
-            <marker date="1559645620874" expanded="true" signature="2301:2901" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2409:2467" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2528:2578" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2701:2760" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="2919:3243" ph="/// Handles key events. When 'p' is pressed the timer is paused and the &quot;GAME_PAUSED&quot; event ... " />
-            <marker date="1559645620874" expanded="true" signature="3314:3706" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="3346:3696" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="3724:3870" ph="///  ... " />
-            <marker date="1559645620874" expanded="true" signature="3919:3975" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="3993:4144" ph="/// Gets an instance of GameOver. ... " />
-            <marker date="1559645620874" expanded="true" signature="4193:4291" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="4309:4466" ph="/// Gets an instance of GameRunning. ... " />
-            <marker date="1559645620874" expanded="true" signature="4518:4590" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="4608:4817" ph="///  ... " />
-            <marker date="1559645620874" expanded="true" signature="4851:5104" ph="{...}" />
-            <marker date="1559645620874" expanded="true" signature="4910:5094" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/MainMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -692,91 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/StateMachine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="88" />
-          <folding>
-            <marker date="1559654429199" expanded="false" signature="6:50" ph="..." />
-            <marker date="1559654429199" expanded="true" signature="86:2284" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="148:2282" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="180:392" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="463:792" ph="/// Processes events of a given type, changing the active state or calling ... " />
-            <marker date="1559654429199" expanded="true" signature="880:1359" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="941:1179" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="986:1165" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="1228:1349" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="1369:1507" ph="/// Sets the active state. ... " />
-            <marker date="1559654429199" expanded="true" signature="1566:2276" ph="{...}" />
-            <marker date="1559654429199" expanded="true" signature="1599:2266" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2718">
-          <caret line="260" column="22" selection-start-line="260" selection-start-column="22" selection-end-line="260" selection-end-column="22" />
-          <folding>
-            <marker date="1559655694277" expanded="false" signature="6:193" ph="..." />
-            <marker date="1559655694277" expanded="true" signature="222:9708" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="278:9706" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="1018:1662" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="1719:1979" ph="/// Processes events related to player movement. ... " />
-            <marker date="1559655694277" expanded="true" signature="2067:2989" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="2125:2979" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="2170:2965" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="3007:3196" ph="/// Sets the position of the player. ... " />
-            <marker date="1559655694277" expanded="true" signature="3247:3326" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="3336:3542" ph="/// Sets the extent of the player. ... " />
-            <marker date="1559655694277" expanded="true" signature="3600:3684" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="3702:3770" ph="/// Renders the player. ... " />
-            <marker date="1559655694277" expanded="true" signature="3806:4148" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="4085:4138" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="4166:4245" ph="/// Applies gravity to the player. ... " />
-            <marker date="1559655694277" expanded="true" signature="4276:4327" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="4345:4511" ph="/// Sets taxiStrides to the correct ImageStride given the corresponding orientation and ... " />
-            <marker date="1559655694277" expanded="true" signature="4553:6007" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="4583:5000" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="4642:4814" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="5032:5433" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="5066:5243" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="5466:5855" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="5500:5671" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="5945:5997" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="6025:6157" ph="/// Sets boolMoveUp to true. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="6192:6234" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="6252:6386" ph="/// Sets boolMoveLeft to true. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="6423:6467" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="6485:6620" ph="/// Sets boolMoveRight to true. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="6658:6703" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="6721:6856" ph="/// Sets boolMoveLeft to false. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="6898:6943" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="6953:7089" ph="/// Sets boolMoveRight to false. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="7130:7176" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7194:7327" ph="/// Sets boolMoveUp to false. This is used in checking which keys are currently pressed. ... " />
-            <marker date="1559655694277" expanded="true" signature="7366:7409" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7427:7524" ph="/// Adds &quot;force&quot; to current direction of the player. ... " />
-            <marker date="1559655694277" expanded="true" signature="7556:7840" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7586:7644" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7676:7736" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7769:7830" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="7858:7983" ph="/// Sets BoolPassenger to false, currentCustomer to null and restarts the timer. ... " />
-            <marker date="1559655694277" expanded="true" signature="8014:8195" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="8047:8185" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="8213:8384" ph="/// Upon failing a delivery, a GameStateEvent is registered such that the active ... " />
-            <marker date="1559655694277" expanded="true" signature="8422:8785" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="8518:8775" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="8803:8965" ph="/// Splits the string containing information about the drop-off platform of the ... " />
-            <marker date="1559655694277" expanded="true" signature="9003:9166" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="9058:9156" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="9184:9435" ph="/// Sets BoolPassenger to true, CurrrentCustomer to the given Customer, ... " />
-            <marker date="1559655694277" expanded="true" signature="9482:9700" ph="{...}" />
-            <marker date="1559655694277" expanded="true" signature="9516:9690" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/PaintBoard.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Platform.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Program.cs">
@@ -815,12 +898,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/LevelParser/PaintBoard.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Collision.cs" />
-    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Customer.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/LevelParser/Platform.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/LevelParser/ReadFile.cs" />
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/SpaceBus.cs" />
-    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Textplate.cs" />
     <entry file="file://$PROJECT_DIR$/LevelParserTesting/Tests.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/DynamicShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <marker date="1552646568773" expanded="true" signature="54:1509" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="94:1507" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="104:204" ph="///     Only dynamic entities carry a direction vector. ... " />
+            <marker date="1552646568773" expanded="true" signature="317:458" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="609:684" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="739:844" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="910:1007" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="1056:1096" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="1107:1265" ph="///     Overrides the default Shape.Move() method to add ... " />
+            <marker date="1552646568773" expanded="true" signature="1302:1348" ph="{...}" />
+            <marker date="1552646568773" expanded="true" signature="1424:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Tests.cs" />
+    <entry file="file://$USER_HOME$/.Rider2018.3/system/log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2019_06_04_18_51_26_1441.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GamePaused.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -852,12 +964,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Textplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <marker date="1559661297633" expanded="false" signature="6:205" ph="..." />
+            <marker date="1559661297633" expanded="true" signature="229:2295" ph="{...}" />
+            <marker date="1559661297633" expanded="true" signature="258:2293" ph="{...}" />
+            <marker date="1559661297633" expanded="true" signature="425:1116" ph="{...}" />
+            <marker date="1559661297633" expanded="true" signature="1126:1278" ph="/// Updates scoreText, timerText and namePlatformText. ... " />
+            <marker date="1559661297633" expanded="true" signature="1321:1953" ph="{...}" />
+            <marker date="1559661297633" expanded="true" signature="1428:1796" ph="{...}" />
+            <marker date="1559661297633" expanded="true" signature="1971:2081" ph="/// Renders textPlate, scoreText, timerText and namePlatformText. ... " />
+            <marker date="1559661297633" expanded="true" signature="2111:2287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/Test.cs" />
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/AdditionalTests.cs" />
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/StateTranformerTesting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding>
+            <marker date="1559663443972" expanded="false" signature="6:53" ph="..." />
+            <marker date="1559663443972" expanded="true" signature="94:3341" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="136:3339" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="155:274" ph="/// Testing the string &quot;GAME_PAUSED&quot; changes GameStateType to GamePaused.  ... " />
+            <marker date="1559663443972" expanded="true" signature="327:465" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="483:602" ph="/// Testing the GameStateType GamePaused returns the string &quot;GAME_PAUSED&quot;. ... " />
+            <marker date="1559663443972" expanded="true" signature="655:793" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="803:923" ph="/// Testing the string &quot;GAME_RUNNING&quot; changes GameStateType to GameRunning. ... " />
+            <marker date="1559663443972" expanded="true" signature="978:1118" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="1136:1251" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
+            <marker date="1559663443972" expanded="true" signature="1306:1440" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="1450:1564" ph="/// Testing the string &quot;MAIN_MENU&quot; changes GameStateType to MainMenu. ... " />
+            <marker date="1559663443972" expanded="true" signature="1616:1750" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="1760:1875" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
+            <marker date="1559663443972" expanded="true" signature="1927:2061" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="2071:2185" ph="/// Testing the string &quot;GAME_OVER&quot; changes GameStateType to GameOver. ... " />
+            <marker date="1559663443972" expanded="true" signature="2237:2371" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="2381:2496" ph="/// Testing the GameStateType GameOver returns the string &quot;GAME_OVER&quot;. ... " />
+            <marker date="1559663443972" expanded="true" signature="2548:2682" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="2692:2812" ph="/// Testing the string &quot;SELECT_LEVEL&quot; changes GameStateType to SelectLevel. ... " />
+            <marker date="1559663443972" expanded="true" signature="2867:3007" ph="{...}" />
+            <marker date="1559663443972" expanded="true" signature="3017:3138" ph="/// Testing the GameStateType SelectLevel returns the string &quot;SELECT_LEVEL&quot;. ... " />
+            <marker date="1559663443972" expanded="true" signature="3193:3333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <marker date="1559661297631" expanded="false" signature="6:239" ph="..." />
+            <marker date="1559661297631" expanded="true" signature="263:2968" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="300:2966" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="633:962" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="1019:1199" ph="/// Checks for the orientation and position of the customer, sets the current image of ... " />
+            <marker date="1559661297631" expanded="true" signature="1227:2045" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="1287:1631" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="1378:1457" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="1690:2035" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="1780:1860" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="2063:2229" ph="/// If SpawnTime of the customer is less-than or equal to the elapsed seconds, then ... " />
+            <marker date="1559661297631" expanded="true" signature="2259:2387" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="2323:2377" ph="{...}" />
+            <marker date="1559661297631" expanded="true" signature="2397:2656" ph="/// Sets Name, SpawnTime, Platform, TimeLimit and Score of the customer. ... " />
+            <marker date="1559661297631" expanded="true" signature="2732:2960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/GameRunning.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <folding>
+            <marker date="1559661297624" expanded="false" signature="6:227" ph="..." />
+            <marker date="1559661297624" expanded="true" signature="263:5112" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="307:5110" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="630:1178" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="1271:1499" ph="/// Updates player movement, gravity, textPlate and customer movement, checks for failed ... " />
+            <marker date="1559661297624" expanded="true" signature="1538:2089" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2031:2079" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2099:2266" ph="/// Renders the in-game background image, player, customers, platforms, walls, ... " />
+            <marker date="1559661297624" expanded="true" signature="2301:2901" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2409:2467" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2528:2578" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2701:2760" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="2919:3243" ph="/// Handles key events. When 'p' is pressed the timer is paused and the &quot;GAME_PAUSED&quot; event ... " />
+            <marker date="1559661297624" expanded="true" signature="3314:3706" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="3346:3696" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="3724:3870" ph="/// Paints the board of a given level. ... " />
+            <marker date="1559661297624" expanded="true" signature="3919:3975" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="3993:4144" ph="/// Gets an instance of GameRunning. ... " />
+            <marker date="1559661297624" expanded="true" signature="4193:4291" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="4309:4466" ph="/// Gets a new instance of GameRunning. ... " />
+            <marker date="1559661297624" expanded="true" signature="4518:4590" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="4608:4817" ph="/// Checks if the players position is higher than 0.99f, and if so, clears the current ... " />
+            <marker date="1559661297624" expanded="true" signature="4851:5104" ph="{...}" />
+            <marker date="1559661297624" expanded="true" signature="4910:5094" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/SpaceStates/StateMachine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <marker date="1559661297628" expanded="false" signature="6:50" ph="..." />
+            <marker date="1559661297628" expanded="true" signature="86:2284" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="148:2282" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="180:392" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="463:792" ph="/// Processes events of a given type, changing the active state or calling ... " />
+            <marker date="1559661297628" expanded="true" signature="880:1359" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="941:1179" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="986:1165" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="1228:1349" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="1369:1507" ph="/// Sets the active state. ... " />
+            <marker date="1559661297628" expanded="true" signature="1566:2276" ph="{...}" />
+            <marker date="1559661297628" expanded="true" signature="1599:2266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/LevelParserTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+          <folding>
+            <marker date="1559720586009" expanded="false" signature="6:239" ph="..." />
+            <marker date="1559720586009" expanded="true" signature="270:8831" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="326:8829" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="372:6181" ph="{...}" />
+            <marker date="1559720586009" expanded="false" signature="647:2041" ph="{...}" />
+            <marker date="1559720586009" expanded="false" signature="2117:3511" ph="{...}" />
+            <marker date="1559720586009" expanded="false" signature="3605:4668" ph="{...}" />
+            <marker date="1559720586009" expanded="false" signature="4726:6159" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="6511:6623" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
+            <marker date="1559720586009" expanded="true" signature="6682:6851" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="6738:6841" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="6861:7035" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
+            <marker date="1559720586009" expanded="true" signature="7099:7310" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="7161:7300" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="7320:7457" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
+            <marker date="1559720586009" expanded="true" signature="7521:8040" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="7684:7733" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="8050:8158" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
+            <marker date="1559720586009" expanded="true" signature="8214:8380" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="8270:8370" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="8390:8560" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
+            <marker date="1559720586009" expanded="true" signature="8621:8823" ph="{...}" />
+            <marker date="1559720586009" expanded="true" signature="8680:8813" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Game.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
+        <state relative-caret-position="2176">
           <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
           <folding>
             <marker date="1559661297620" expanded="false" signature="6:148" ph="..." />
+            <marker date="1559661297620" expanded="true" signature="172:6140" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="226:6138" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="359:1443" ph="{...}" />
             <marker date="1559661297620" expanded="true" signature="559:905" ph="{...}" />
@@ -883,86 +1158,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SU19-Exercises/su19-hold9-gruppe8/DIKUArcade/DIKUArcade/Entities/DynamicShape.cs">
+    <entry file="file://$PROJECT_DIR$/SpaceTaxi-1/Taxi/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <marker date="1552646568773" expanded="true" signature="94:1507" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="104:204" ph="///     Only dynamic entities carry a direction vector. ... " />
-            <marker date="1552646568773" expanded="true" signature="317:458" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="609:684" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="739:844" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="910:1007" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="1056:1096" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="1107:1265" ph="///     Overrides the default Shape.Move() method to add ... " />
-            <marker date="1552646568773" expanded="true" signature="1302:1348" ph="{...}" />
-            <marker date="1552646568773" expanded="true" signature="1424:1501" ph="{...}" />
+            <marker date="1559661297632" expanded="false" signature="6:193" ph="..." />
+            <marker date="1559661297632" expanded="true" signature="222:9708" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="278:9706" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="1018:1662" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="1719:1979" ph="/// Processes events related to player movement. ... " />
+            <marker date="1559661297632" expanded="true" signature="2067:2989" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="2125:2979" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="2170:2965" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="3007:3196" ph="/// Sets the position of the player. ... " />
+            <marker date="1559661297632" expanded="true" signature="3247:3326" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="3336:3542" ph="/// Sets the extent of the player. ... " />
+            <marker date="1559661297632" expanded="true" signature="3600:3684" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="3702:3770" ph="/// Renders the player. ... " />
+            <marker date="1559661297632" expanded="true" signature="3806:4148" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="4085:4138" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="4166:4245" ph="/// Applies gravity to the player. ... " />
+            <marker date="1559661297632" expanded="true" signature="4276:4327" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="4345:4511" ph="/// Sets taxiStrides to the correct ImageStride given the corresponding orientation and ... " />
+            <marker date="1559661297632" expanded="true" signature="4553:6007" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="4583:5000" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="4642:4814" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="5032:5433" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="5066:5243" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="5466:5855" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="5500:5671" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="5945:5997" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="6025:6157" ph="/// Sets boolMoveUp to true. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="6192:6234" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="6252:6386" ph="/// Sets boolMoveLeft to true. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="6423:6467" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="6485:6620" ph="/// Sets boolMoveRight to true. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="6658:6703" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="6721:6856" ph="/// Sets boolMoveLeft to false. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="6898:6943" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="6953:7089" ph="/// Sets boolMoveRight to false. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="7130:7176" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7194:7327" ph="/// Sets boolMoveUp to false. This is used in checking which keys are currently pressed. ... " />
+            <marker date="1559661297632" expanded="true" signature="7366:7409" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7427:7524" ph="/// Adds &quot;force&quot; to current direction of the player. ... " />
+            <marker date="1559661297632" expanded="true" signature="7556:7840" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7586:7644" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7676:7736" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7769:7830" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="7858:7983" ph="/// Sets BoolPassenger to false, currentCustomer to null and restarts the timer. ... " />
+            <marker date="1559661297632" expanded="true" signature="8014:8195" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="8047:8185" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="8213:8384" ph="/// Upon failing a delivery, a GameStateEvent is registered such that the active ... " />
+            <marker date="1559661297632" expanded="true" signature="8422:8785" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="8518:8775" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="8803:8965" ph="/// Splits the string containing information about the drop-off platform of the ... " />
+            <marker date="1559661297632" expanded="true" signature="9003:9166" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="9058:9156" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="9184:9435" ph="/// Sets BoolPassenger to true, CurrrentCustomer to the given Customer, ... " />
+            <marker date="1559661297632" expanded="true" signature="9482:9700" ph="{...}" />
+            <marker date="1559661297632" expanded="true" signature="9516:9690" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/StateMachineTesting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <marker date="1559663088840" expanded="false" signature="6:193" ph="..." />
-            <marker date="1559663088840" expanded="true" signature="219:4072" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="262:4070" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="308:756" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="951:1087" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
-            <marker date="1559663088840" expanded="true" signature="1136:1426" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="1444:1567" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
-            <marker date="1559663088840" expanded="true" signature="1619:1890" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="1908:2048" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
-            <marker date="1559663088840" expanded="true" signature="2098:2385" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="2395:2519" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
-            <marker date="1559663088840" expanded="true" signature="2581:3009" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="2706:2999" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="3027:3147" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
-            <marker date="1559663088840" expanded="true" signature="3206:4064" ph="{...}" />
-            <marker date="1559663088840" expanded="true" signature="3328:4054" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/LevelParserTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="187" column="16" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
-          <folding>
-            <marker date="1559662997583" expanded="false" signature="6:136" ph="..." />
-            <marker date="1559662997583" expanded="true" signature="167:8695" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="210:8693" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="256:6054" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="531:1925" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="2001:3395" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="3489:4552" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="4610:6043" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="6375:6487" ph="///     Tests if the board of short-n-sweet.txt is read as expected ... " />
-            <marker date="1559662997583" expanded="true" signature="6546:6715" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="6602:6705" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="6725:6899" ph="///     Tests if the dictionary of short-n-sweet.txt contains the ... " />
-            <marker date="1559662997583" expanded="true" signature="6963:7174" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="7025:7164" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="7184:7321" ph="///     Tests if ReadFile.Read() throws an FileNotFoundException when given an invalid input ... " />
-            <marker date="1559662997583" expanded="true" signature="7385:7904" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="7548:7597" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="7914:8022" ph="///     Tests if the board of the-beach.txt is read as expected ... " />
-            <marker date="1559662997583" expanded="true" signature="8078:8244" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="8134:8234" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="8254:8424" ph="///     Tests if the dictionary of the-beach.txt contains ... " />
-            <marker date="1559662997583" expanded="true" signature="8485:8687" ph="{...}" />
-            <marker date="1559662997583" expanded="true" signature="8544:8677" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateMachineTesting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <marker date="1559662997569" expanded="false" signature="6:151" ph="..." />
             <marker date="1559662997569" expanded="true" signature="192:2816" ph="{...}" />
@@ -981,41 +1244,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/SpaceTaxiTest.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceTaxiStateMachineTesting/StateTranformerTesting.cs">
+    <entry file="file://$PROJECT_DIR$/SpaceTaxiTest/Tests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        <state relative-caret-position="71">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
-            <marker date="1559663443972" expanded="false" signature="6:53" ph="..." />
-            <marker date="1559663443972" expanded="true" signature="94:3341" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="136:3339" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="155:274" ph="/// Testing the string &quot;GAME_PAUSED&quot; changes GameStateType to GamePaused.  ... " />
-            <marker date="1559663443972" expanded="true" signature="327:465" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="483:602" ph="/// Testing the GameStateType GamePaused returns the string &quot;GAME_PAUSED&quot;. ... " />
-            <marker date="1559663443972" expanded="true" signature="655:793" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="803:923" ph="/// Testing the string &quot;GAME_RUNNING&quot; changes GameStateType to GameRunning. ... " />
-            <marker date="1559663443972" expanded="true" signature="978:1118" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1136:1251" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
-            <marker date="1559663443972" expanded="true" signature="1306:1440" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1450:1564" ph="/// Testing the string &quot;MAIN_MENU&quot; changes GameStateType to MainMenu. ... " />
-            <marker date="1559663443972" expanded="true" signature="1616:1750" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="1760:1875" ph="/// Testing the GameStateType MainMenu returns the string &quot;MAIN_MENU&quot;. ... " />
-            <marker date="1559663443972" expanded="true" signature="1927:2061" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2071:2185" ph="/// Testing the string &quot;GAME_OVER&quot; changes GameStateType to GameOver. ... " />
-            <marker date="1559663443972" expanded="true" signature="2237:2371" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2381:2496" ph="/// Testing the GameStateType GameOver returns the string &quot;GAME_OVER&quot;. ... " />
-            <marker date="1559663443972" expanded="true" signature="2548:2682" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="2692:2812" ph="/// Testing the string &quot;SELECT_LEVEL&quot; changes GameStateType to SelectLevel. ... " />
-            <marker date="1559663443972" expanded="true" signature="2867:3007" ph="{...}" />
-            <marker date="1559663443972" expanded="true" signature="3017:3138" ph="/// Testing the GameStateType SelectLevel returns the string &quot;SELECT_LEVEL&quot;. ... " />
-            <marker date="1559663443972" expanded="true" signature="3193:3333" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="6:161" ph="..." />
+            <marker date="1559721782522" expanded="true" signature="187:3935" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="230:3933" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="293:564" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="715:851" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to true upon a pick up of a customer ... " />
+            <marker date="1559721782522" expanded="true" signature="900:1190" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="1208:1331" ph="/// Checks if the taxi can pick up a customer while already having a customer. ... " />
+            <marker date="1559721782522" expanded="true" signature="1383:1766" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="1784:1924" ph="/// Tests if the player´s bool &quot;BoolPassenger&quot; is set to false upon dropping off a customer     ... " />
+            <marker date="1559721782522" expanded="true" signature="1974:2248" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="2258:2382" ph="///    Checks if the customers of short-n-sweet.txt gets the right attributes.  ... " />
+            <marker date="1559721782522" expanded="true" signature="2444:2872" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="2569:2862" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="2890:3010" ph="///    Checks if the customers of the-beach.txt gets the right attributes.  ... " />
+            <marker date="1559721782522" expanded="true" signature="3069:3927" ph="{...}" />
+            <marker date="1559721782522" expanded="true" signature="3191:3917" ph="{...}" />
           </folding>
         </state>
       </provider>

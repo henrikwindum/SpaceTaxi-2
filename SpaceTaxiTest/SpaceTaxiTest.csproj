@@ -12,6 +12,7 @@
         <AssemblyName>SpaceTaxiTest</AssemblyName>
         <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>7</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,6 +43,9 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="LevelParserTest.cs" />
+        <Compile Include="StateMachineTesting.cs" />
+        <Compile Include="StateTranformerTesting.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
