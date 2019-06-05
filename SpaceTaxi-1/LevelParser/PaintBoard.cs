@@ -73,7 +73,7 @@ namespace SpaceTaxi_1 {
                         Walls.AddStationaryEntity(new Entity(
                             new StationaryShape(new Vec2F(j * height, i * width),
                                 new Vec2F(height, width)),
-                            new Image(Path.Combine("Assets", "Images",
+                            new Image(Path.Combine("Assets", "Images",    
                                 readFile.BoardDict[currentString[j]]))));
                     }
                 }
